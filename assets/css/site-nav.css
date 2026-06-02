@@ -7,16 +7,16 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 92px;
+  scrollbar-gutter: stable;
+  overflow-x: clip;
 }
 
 body {
-  overflow-x: hidden;
   max-width: 100%;
 }
 
 .site {
   min-height: 100vh;
-  overflow-x: hidden;
   max-width: 100%;
   background:
     radial-gradient(circle at 72% 28%, rgba(132, 105, 255, 0.16), transparent 34%),
@@ -199,16 +199,17 @@ body {
 }
 
 @media (max-width: 768px) {
-  html,
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    scroll-padding-top: 72px;
+  }
+
   body,
   .site {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  html {
-    scroll-padding-top: 72px;
   }
 
   .site::before {
