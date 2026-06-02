@@ -1,0 +1,69 @@
+/* 语言切换：PC 顶栏 + 移动端侧边栏底部 */
+
+.nav-lang {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  margin-left: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.nav-lang-link {
+  padding: 6px 2px;
+  border: 0;
+  background: transparent;
+  color: #8b939f;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 160ms ease;
+}
+
+.nav-lang-link:hover {
+  color: #242b3b;
+}
+
+.nav-lang-link.is-active {
+  color: #242b3b;
+  font-weight: 600;
+  cursor: default;
+}
+
+.nav-lang-sep {
+  margin: 0 6px;
+  color: #c5cad3;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* 移动端侧边栏底部（参考截图：左下角纯文字 + 竖线分隔） */
+.nav-lang--drawer {
+  display: none;
+  margin-left: 0;
+  font-size: 13px;
+}
+
+.nav-lang--drawer .nav-lang-link {
+  padding: 4px 0;
+  font-size: 13px;
+}
+
+.nav-lang--drawer .nav-lang-sep {
+  margin: 0 10px;
+  color: #b8bec8;
+}
+
+@media (max-width: 920px) {
+  .nav > .nav-lang:not(.nav-lang--drawer) {
+    display: none;
+  }
+
+  .nav-lang--drawer {
+    display: inline-flex;
+  }
+}

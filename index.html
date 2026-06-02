@@ -226,7 +226,6 @@
       box-shadow: 0 5px 12px rgba(102, 75, 241, 0.32);
     }
 
-    .nav-cta,
     .btn {
       display: inline-flex;
       align-items: center;
@@ -236,16 +235,6 @@
       cursor: pointer;
       white-space: nowrap;
       border-radius: 999px;
-    }
-
-    .nav-cta {
-      min-width: 126px;
-      height: 46px;
-      color: #fff;
-      font-size: 15px;
-      font-weight: 750;
-      background: linear-gradient(135deg, #6e4cff 0%, #4f39e6 58%, #7b68ff 100%);
-      box-shadow: 0 14px 26px rgba(91, 65, 230, 0.25);
     }
 
     .hero {
@@ -362,8 +351,7 @@
       transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
     }
 
-    .btn:hover,
-    .nav-cta:hover {
+    .btn:hover {
       transform: translateY(-1px);
     }
 
@@ -2237,21 +2225,6 @@
         display: none;
       }
 
-      .nav-cta {
-        min-width: 0;
-        height: 38px;
-        padding: 0 16px;
-        gap: 7px;
-        font-size: 14px;
-        flex: 0 0 auto;
-        box-shadow: 0 10px 20px rgba(91, 65, 230, 0.2);
-      }
-
-      .nav-cta .arrow {
-        width: 14px;
-        height: 14px;
-      }
-
       .hero {
         width: 100%;
         min-height: 0;
@@ -2824,12 +2797,6 @@
         font-size: 8px;
       }
 
-      .nav-cta {
-        height: 36px;
-        padding: 0 14px;
-        font-size: 13px;
-      }
-
       .hero {
         padding: 30px 16px 26px;
         gap: 20px;
@@ -2986,6 +2953,7 @@
     }
   </style>
   <link rel="stylesheet" href="assets/css/mobile-nav.css" />
+  <link rel="stylesheet" href="assets/css/nav-lang.css" />
 </head>
 <body>
   <div class="site">
@@ -3016,12 +2984,11 @@
           </span>
         </button>
 
-        <a class="nav-cta" href="#contact">
-          立即咨询
-          <svg class="arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-            <path d="M4 10h11M11 6l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </a>
+        <div class="nav-lang" role="navigation" aria-label="语言切换">
+          <button type="button" class="nav-lang-link is-active" data-lang="zh" aria-current="true">中文</button>
+          <span class="nav-lang-sep" aria-hidden="true">/</span>
+          <button type="button" class="nav-lang-link" data-lang="en" aria-current="false">EN</button>
+        </div>
       </nav>
     </header>
 
@@ -3039,7 +3006,11 @@
         <nav class="menu menu--drawer" aria-label="站点导航"></nav>
       </div>
       <div class="mobile-nav-foot">
-        <a class="mobile-nav-foot-cta" href="#contact">立即咨询</a>
+        <div class="nav-lang nav-lang--drawer" role="navigation" aria-label="语言切换">
+          <button type="button" class="nav-lang-link is-active" data-lang="zh" aria-current="true">中文</button>
+          <span class="nav-lang-sep" aria-hidden="true">|</span>
+          <button type="button" class="nav-lang-link" data-lang="en" aria-current="false">EN</button>
+        </div>
       </div>
     </aside>
 
@@ -3860,5 +3831,6 @@
     window.addEventListener("hashchange", () => setActiveNav(window.location.hash || "#home"));
   </script>
   <script src="assets/js/mobile-nav.js"></script>
+  <script src="assets/js/lang-switch.js"></script>
 </body>
 </html>

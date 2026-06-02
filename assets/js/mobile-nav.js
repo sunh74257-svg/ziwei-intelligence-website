@@ -7,9 +7,6 @@
   const drawerMenu = document.querySelector(".menu--drawer");
   const brandSource = document.querySelector(".nav > .brand");
   const brandTarget = document.querySelector(".mobile-nav-brand");
-  const footCta = document.querySelector(".mobile-nav-foot-cta");
-  const navCta = document.querySelector(".nav-cta");
-
   if (!toggle || !drawer || !sourceMenu || !drawerMenu) {
     return;
   }
@@ -20,17 +17,6 @@
     brandTarget.href = brandSource.href;
     brandTarget.setAttribute("aria-label", brandSource.getAttribute("aria-label") || "首页");
     brandTarget.innerHTML = brandSource.innerHTML;
-  }
-
-  if (footCta && navCta) {
-    footCta.href = navCta.getAttribute("href") || "#contact";
-    const label = Array.from(navCta.childNodes)
-      .filter((node) => node.nodeType === Node.TEXT_NODE)
-      .map((node) => node.textContent.trim())
-      .join("");
-    if (label) {
-      footCta.textContent = label;
-    }
   }
 
   const setOpen = (open) => {
@@ -50,7 +36,7 @@
   backdrop?.addEventListener("click", () => setOpen(false));
 
   drawer.addEventListener("click", (event) => {
-    if (event.target.closest(".menu--drawer a, .mobile-nav-foot-cta")) {
+    if (event.target.closest(".menu--drawer a")) {
       setOpen(false);
     }
   });
