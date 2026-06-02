@@ -1,21 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ziweitech.com/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/" />
+  </url>
+  <url>
+    <loc>https://www.ziweitech.com/en/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/" />
   </url>
   <url>
     <loc>https://www.ziweitech.com/blog/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/blog/" />
   </url>
   <url>
-    <loc>https://www.ziweitech.com/blog/posts/what-is-ai-compute-infrastructure.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://www.ziweitech.com/en/blog/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/blog/" />
+  </url>
+  <url>
+    <loc>https://www.ziweitech.com/blog/posts/what-is-ai-suan-neng.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/blog/posts/what-is-ai-suan-neng.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/blog/posts/what-is-ai-compute.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/blog/posts/what-is-ai-suan-neng.html" />
+  </url>
+  <url>
+    <loc>https://www.ziweitech.com/en/blog/posts/what-is-ai-compute.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/blog/posts/what-is-ai-suan-neng.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/blog/posts/what-is-ai-compute.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/blog/posts/what-is-ai-suan-neng.html" />
   </url>
 </urlset>
