@@ -69,7 +69,17 @@
     html {
       scroll-behavior: smooth;
       scroll-padding-top: 92px;
-      scrollbar-gutter: stable;
+      overflow-x: clip;
+    }
+
+    /* 仅桌面端预留滚动条槽位，避免与资讯页跳转时顶栏抖动；移动端关闭以免影响自适应 */
+    @media (min-width: 769px) {
+      html {
+        scrollbar-gutter: stable;
+      }
+    }
+
+    body {
       overflow-x: clip;
     }
 
@@ -2152,9 +2162,15 @@
         max-width: 100%;
         overflow-x: clip;
         scroll-padding-top: 72px;
+        scrollbar-gutter: auto;
       }
 
-      body,
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: clip;
+      }
+
       .site {
         width: 100%;
         max-width: 100%;

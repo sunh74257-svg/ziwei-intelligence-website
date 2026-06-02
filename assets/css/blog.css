@@ -21,6 +21,10 @@ body {
   background: #fbfcff;
 }
 
+body {
+  overflow-x: clip;
+}
+
 img,
 svg {
   max-width: 100%;

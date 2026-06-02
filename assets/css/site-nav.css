@@ -7,12 +7,18 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 92px;
-  scrollbar-gutter: stable;
   overflow-x: clip;
+}
+
+@media (min-width: 769px) {
+  html {
+    scrollbar-gutter: stable;
+  }
 }
 
 body {
   max-width: 100%;
+  overflow-x: clip;
 }
 
 .site {
@@ -204,9 +210,15 @@ body {
     max-width: 100%;
     overflow-x: clip;
     scroll-padding-top: 72px;
+    scrollbar-gutter: auto;
   }
 
-  body,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
   .site {
     width: 100%;
     max-width: 100%;
