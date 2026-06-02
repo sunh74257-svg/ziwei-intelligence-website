@@ -13,6 +13,7 @@
   <meta property="og:description" content="解读 AI 算能基础设施的组成与企业选型要点。" />
   <meta property="og:url" content="https://www.ziweitech.com/blog/posts/what-is-ai-compute-infrastructure.html" />
   <link rel="stylesheet" href="../../assets/css/site-nav.css" />
+  <link rel="stylesheet" href="../../assets/css/mobile-nav.css" />
   <link rel="stylesheet" href="../../assets/css/blog.css" />
   <script type="application/ld+json">
   {
@@ -61,6 +62,13 @@
           <a class="active" href="../index.html" aria-current="page">资讯中心</a>
           <a href="../../index.html#contact">联系我们</a>
         </div>
+        <button type="button" class="nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="site-mobile-nav">
+          <span class="nav-toggle-lines" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
         <a class="nav-cta" href="../../index.html#contact">
           立即咨询
           <svg class="arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -69,6 +77,24 @@
         </a>
       </nav>
     </header>
+
+    <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+    <aside id="site-mobile-nav" class="mobile-nav-drawer" aria-hidden="true" aria-label="移动端导航">
+      <div class="mobile-nav-head">
+        <a class="brand mobile-nav-brand" href="../../index.html" aria-label="紫微智能科技首页"></a>
+        <button type="button" class="mobile-nav-close" aria-label="关闭菜单">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-nav-body">
+        <nav class="menu menu--drawer" aria-label="站点导航"></nav>
+      </div>
+      <div class="mobile-nav-foot">
+        <a class="mobile-nav-foot-cta" href="../../index.html#contact">立即咨询</a>
+      </div>
+    </aside>
 
     <main class="blog-main">
       <a class="back-link" href="../index.html">← 返回资讯列表</a>
@@ -114,5 +140,6 @@
       </p>
     </footer>
   </div>
+  <script src="../../assets/js/mobile-nav.js"></script>
 </body>
 </html>
