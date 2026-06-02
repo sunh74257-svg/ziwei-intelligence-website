@@ -15,6 +15,17 @@ for (const [a, b] of pathFixes) src = src.split(a).join(b);
 
 src = src.replace('lang="zh-CN"', 'lang="en"');
 
+const headEarlyScroll = `  <script>
+    if (location.hash) {
+      document.documentElement.style.scrollBehavior = "auto";
+    }
+  </script>
+`;
+
+if (!src.includes("location.hash)")) {
+  src = src.replace("  <link rel=\"icon\" href=\"../favicon.ico\"", `${headEarlyScroll}  <link rel=\"icon\" href=\"../favicon.ico"`);
+}
+
 const headOld = `  <title>紫微智能科技 | AI 算能基础设施</title>
   <meta name="description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署，助力企业 AI 算能基础设施建设。" />
   <link rel="canonical" href="https://www.ziweitech.com/" />
