@@ -27,15 +27,15 @@ head_old = """  <title>紫微智能科技 | AI 算能基础设施</title>
   <meta property="og:description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署。" />
   <meta property="og:url" content="https://www.ziweitech.com/" />"""
 
-head_new = """  <title>ZIWEI Intelligence | AI Compute Infrastructure</title>
-  <meta name="description" content="ZIWEI Intelligence delivers high-performance GPU clusters, elastic AI compute platforms, and full-stack services for model training, inference acceleration, and enterprise private deployment." />
+head_new = """  <title>ZIWEI Tech | AI Compute Infrastructure</title>
+  <meta name="description" content="ZIWEI Tech delivers high-performance GPU clusters, elastic AI compute platforms, and full-stack services for model training, inference acceleration, and enterprise private deployment." />
   <link rel="canonical" href="https://www.ziweitech.com/en/" />
   <link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/" />
   <link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/" />
   <link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="ZIWEI Intelligence | AI Compute Infrastructure" />
+  <meta property="og:title" content="ZIWEI Tech | AI Compute Infrastructure" />
   <meta property="og:description" content="High-performance GPU clusters, elastic AI compute platforms, and full-stack AI services for training, inference, and enterprise deployment." />
   <meta property="og:url" content="https://www.ziweitech.com/en/" />"""
 
@@ -43,7 +43,7 @@ src = src.replace('lang="zh-CN"', 'lang="en"', 1)
 src = src.replace(head_old, head_new)
 
 json_ld_old = """        "name": "紫微智能科技（北京）有限公司",
-        "alternateName": "ZIWEI INTELLIGENCE",
+        "alternateName": "ZIWEI Tech",
         "url": "https://www.ziweitech.com/",
         "logo": "https://www.ziweitech.com/assets/images/ziwei-logo-mark.png",
         "email": "service@ziweitech.com",
@@ -56,8 +56,8 @@ json_ld_old = """        "name": "紫微智能科技（北京）有限公司",
         "url": "https://www.ziweitech.com/",
         "inLanguage": "zh-CN\""""
 
-json_ld_new = """        "name": "ZIWEI Intelligence (Beijing) Co., Ltd.",
-        "alternateName": "ZIWEI INTELLIGENCE",
+json_ld_new = """        "name": "ZIWEI Tech (Beijing) Co., Ltd.",
+        "alternateName": "ZIWEI Tech",
         "url": "https://www.ziweitech.com/en/",
         "logo": "https://www.ziweitech.com/assets/images/ziwei-logo-mark.png",
         "email": "service@ziweitech.com",
@@ -66,7 +66,7 @@ json_ld_new = """        "name": "ZIWEI Intelligence (Beijing) Co., Ltd.",
       },
       {
         "@type": "WebSite",
-        "name": "ZIWEI Intelligence",
+        "name": "ZIWEI Tech",
         "url": "https://www.ziweitech.com/en/",
         "inLanguage": "en\""""
 
@@ -84,8 +84,8 @@ src = src.replace(
 
 translations = [
     ('aria-label="顶部导航"', 'aria-label="Top navigation"'),
-    ('aria-label="紫微智能科技首页"', 'aria-label="ZIWEI Intelligence home"'),
-    ('alt="紫微智能科技标志"', 'alt="ZIWEI Intelligence logo"'),
+    ('aria-label="紫微智能科技首页"', 'aria-label="ZIWEI Tech home"'),
+    ('alt="紫微智能科技标志"', 'alt="ZIWEI Tech logo"'),
     ('aria-label="主导航"', 'aria-label="Main navigation"'),
     ('aria-label="打开导航菜单"', 'aria-label="Open navigation menu"'),
     ('aria-label="语言切换"', 'aria-label="Language switcher"'),
@@ -100,7 +100,7 @@ translations = [
     ('>联系我们<', '>Contact<'),
     ('高性能算力 · 智能驱动未来', 'High-Performance Compute · AI-Powered Future'),
     ('aria-label="Hero 文案"', 'aria-label="Hero copy"'),
-    ('<span class="title-line">紫微智能科技</span>', '<span class="title-line">ZIWEI Intelligence</span>'),
+    ('<span class="title-line">紫微智能科技</span>', '<span class="title-line">ZIWEI Tech</span>'),
     ('<span class="title-line">构建领先的</span>', '<span class="title-line">Building Leading</span>'),
     ('<span class="gradient-text">AI 算力</span>基础设施', '<span class="gradient-text">AI Compute</span> Infrastructure'),
     ('提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，<br />\n          赋能模型训练、推理加速与企业级智能化落地。', 'High-performance GPU clusters, elastic AI compute platforms, and full-stack AI services for<br />\n          model training, inference acceleration, and enterprise AI adoption.'),
@@ -139,7 +139,7 @@ translations = [
     ('>医疗健康<', '>Healthcare<'),
     ('>智慧城市<', '>Smart Cities<'),
     ('>互联网与内容<', '>Internet & Content<'),
-    ('紫微智能科技提供哪些核心能力？', 'What core capabilities does ZIWEI Intelligence provide?'),
+    ('紫微智能科技提供哪些核心能力？', 'What core capabilities does ZIWEI Tech provide?'),
     ('我们提供 GPU 算力实例、高性能存储、高速 RDMA 网络、模型训练平台、推理加速服务与私有化部署，覆盖从基础设施到平台运维的全栈 AI 算能能力。', 'We provide GPU compute instances, high-performance storage, high-speed RDMA networking, model training platforms, inference acceleration, and private deployment—full-stack AI compute from infrastructure to operations.'),
     ('如何申请试用算力平台？', 'How do I request a trial of the compute platform?'),
     ('点击页面「申请试用」或「立即咨询」，填写业务场景与算力需求，专属顾问将在 1 个工作日内联系您，并提供免费技术方案评估。', 'Click Request Trial or Contact Us on this page, share your use case and compute requirements, and a dedicated advisor will reach out within one business day with a free technical assessment.'),
@@ -155,7 +155,7 @@ translations = [
     ('>城市与区域<', '>cities and regions<'),
     ('aria-label="产品矩阵入口"', 'aria-label="Product matrix"'),
     ('>产品矩阵入口<', '>Product Matrix<'),
-    ('探索紫微智能科技旗下两大核心产品', 'Explore two core product lines from ZIWEI Intelligence'),
+    ('探索紫微智能科技旗下两大核心产品', 'Explore two core product lines from ZIWEI Tech'),
     ('alt="心理健康 AI 平台图标"', 'alt="Mental health AI platform icon"'),
     ('>产品官网 A<', '>Product Site A<'),
     ('>心理健康 AI 平台<', '>Mental Health AI Platform<'),
@@ -229,7 +229,7 @@ translations = [
     ('从 GPU 算力、AI Compute 集群到训练推理平台，梳理 AI 算能建设路径与企业选型要点。', 'From GPU compute and AI Compute clusters to training and inference platforms—key paths and selection criteria for AI infrastructure.'),
     ('>阅读全文 →<', '>Read article →<'),
     ('>查看全部资讯<', '>View all insights<'),
-    ('© 紫微智能科技（北京）有限公司', '© ZIWEI Intelligence (Beijing) Co., Ltd.'),
+    ('© 紫微智能科技（北京）有限公司', '© ZIWEI Tech (Beijing) Co., Ltd.'),
     ('>电话：400-888-8888<', '>Tel: 400-888-8888<'),
     ('>邮箱：service@ziweitech.com<', '>Email: service@ziweitech.com<'),
     ('>地址：北京市<', '>Address: Beijing, China<'),

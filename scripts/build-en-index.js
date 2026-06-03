@@ -38,15 +38,15 @@ const headOld = `  <title>紫微智能科技 | AI 算能基础设施</title>
   <meta property="og:description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署。" />
   <meta property="og:url" content="https://www.ziweitech.com/" />`;
 
-const headNew = `  <title>ZIWEI Intelligence | AI Compute Infrastructure</title>
-  <meta name="description" content="ZIWEI Intelligence delivers high-performance GPU clusters, elastic AI compute platforms, and full-stack services for model training, inference acceleration, and enterprise private deployment." />
+const headNew = `  <title>ZIWEI Tech | AI Compute Infrastructure</title>
+  <meta name="description" content="ZIWEI Tech delivers high-performance GPU clusters, elastic AI compute platforms, and full-stack services for model training, inference acceleration, and enterprise private deployment." />
   <link rel="canonical" href="https://www.ziweitech.com/en/" />
   <link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/" />
   <link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/" />
   <link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="ZIWEI Intelligence | AI Compute Infrastructure" />
+  <meta property="og:title" content="ZIWEI Tech | AI Compute Infrastructure" />
   <meta property="og:description" content="High-performance GPU clusters, elastic AI compute platforms, and full-stack AI services for training, inference, and enterprise deployment." />
   <meta property="og:url" content="https://www.ziweitech.com/en/" />`;
 
@@ -54,7 +54,7 @@ src = src.replace(headOld, headNew);
 
 src = src.replace(
   `"name": "紫微智能科技（北京）有限公司",
-        "alternateName": "ZIWEI INTELLIGENCE",
+        "alternateName": "ZIWEI Tech",
         "url": "https://www.ziweitech.com/",
         "logo": "https://www.ziweitech.com/assets/images/ziwei-logo-mark.png",
         "email": "service@ziweitech.com",
@@ -66,8 +66,8 @@ src = src.replace(
         "name": "紫微智能科技",
         "url": "https://www.ziweitech.com/",
         "inLanguage": "zh-CN"`,
-  `"name": "ZIWEI Intelligence (Beijing) Co., Ltd.",
-        "alternateName": "ZIWEI INTELLIGENCE",
+  `"name": "ZIWEI Tech (Beijing) Co., Ltd.",
+        "alternateName": "ZIWEI Tech",
         "url": "https://www.ziweitech.com/en/",
         "logo": "https://www.ziweitech.com/assets/images/ziwei-logo-mark.png",
         "email": "service@ziweitech.com",
@@ -76,7 +76,7 @@ src = src.replace(
       },
       {
         "@type": "WebSite",
-        "name": "ZIWEI Intelligence",
+        "name": "ZIWEI Tech",
         "url": "https://www.ziweitech.com/en/",
         "inLanguage": "en"`
 );
@@ -86,8 +86,8 @@ src = src.split('class="nav-lang-link" data-lang="en" aria-current="false"').joi
 
 const translations = [
   ['aria-label="顶部导航"', 'aria-label="Top navigation"'],
-  ['aria-label="紫微智能科技首页"', 'aria-label="ZIWEI Intelligence home"'],
-  ['alt="紫微智能科技标志"', 'alt="ZIWEI Intelligence logo"'],
+  ['aria-label="紫微智能科技首页"', 'aria-label="ZIWEI Tech home"'],
+  ['alt="紫微智能科技标志"', 'alt="ZIWEI Tech logo"'],
   ['aria-label="主导航"', 'aria-label="Main navigation"'],
   ['aria-label="打开导航菜单"', 'aria-label="Open navigation menu"'],
   ['aria-label="语言切换"', 'aria-label="Language switcher"'],
@@ -104,7 +104,7 @@ const translations = [
   ['>联系我们<', '>Contact<'],
   ['高性能算力 · 智能驱动未来', 'High-Performance Compute · AI-Powered Future'],
   ['aria-label="Hero 文案"', 'aria-label="Hero copy"'],
-  ['<span class="title-line">紫微智能科技</span>', '<span class="title-line">ZIWEI Intelligence</span>'],
+  ['<span class="title-line">紫微智能科技</span>', '<span class="title-line">ZIWEI Tech</span>'],
   ['<span class="title-line">构建领先的</span>', '<span class="title-line">Building Leading</span>'],
   ['<span class="gradient-text">AI 算力</span>基础设施', '<span class="gradient-text">AI Compute</span> Infrastructure'],
   ['提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，<br />\n          赋能模型训练、推理加速与企业级智能化落地。', 'High-performance GPU clusters, elastic AI compute platforms, and full-stack AI services for<br />\n          model training, inference acceleration, and enterprise AI adoption.'],
@@ -123,7 +123,7 @@ const translations = [
   ['>城市与区域<', '>cities and regions<'],
   ['aria-label="产品矩阵入口"', 'aria-label="Product matrix"'],
   ['>产品矩阵入口<', '>Product Matrix<'],
-  ['探索紫微智能科技旗下两大核心产品', 'Explore two core product lines from ZIWEI Intelligence'],
+  ['探索紫微智能科技旗下两大核心产品', 'Explore two core product lines from ZIWEI Tech'],
   ['>产品官网 A<', '>Product Site A<'],
   ['>心理健康 AI 平台<', '>Mental Health AI Platform<'],
   ['>心理陪伴<', '>AI companionship<'],
@@ -176,7 +176,7 @@ const translations = [
   ['>查看全部资讯<', '>View all insights<'],
   ['aria-label="常见问题"', 'aria-label="FAQ"'],
   ['>常见问题<', '>FAQ<'],
-  ['紫微智能科技提供哪些核心能力？', 'What core capabilities does ZIWEI Intelligence provide?'],
+  ['紫微智能科技提供哪些核心能力？', 'What core capabilities does ZIWEI Tech provide?'],
   ['我们提供 GPU 算力实例、高性能存储、高速 RDMA 网络、模型训练平台、推理加速服务与私有化部署，覆盖从基础设施到平台运维的全栈 AI 算能能力。', 'We provide GPU compute instances, high-performance storage, high-speed RDMA networking, model training platforms, inference acceleration, and private deployment—full-stack AI compute from infrastructure to operations.'],
   ['如何申请试用算力平台？', 'How do I request a trial of the compute platform?'],
   ['点击页面「申请试用」或「立即咨询」，填写业务场景与算力需求，专属顾问将在 1 个工作日内联系您，并提供免费技术方案评估。', 'Click Request Trial or Contact Us, share your use case and compute requirements, and an advisor will respond within one business day with a free assessment.'],
@@ -222,7 +222,7 @@ const translations = [
   ['alt="智慧城市解决方案示意图"', 'alt="Smart city solution illustration"'],
   ['alt="互联网与内容解决方案示意图"', 'alt="Internet and content solution illustration"'],
   ['推荐系统、AIGC、内容审核', 'Recommendation systems, AIGC, and content moderation'],
-  ['alt="紫微智能 AI 算力核心能力示意"', 'alt="ZIWEI Intelligence AI compute core capabilities"'],
+  ['alt="紫微智能 AI 算力核心能力示意"', 'alt="ZIWEI Tech AI compute core capabilities"'],
   ['领先 GPU 集群算力强劲稳定', 'Industry-leading GPU clusters with powerful, stable compute'],
   ['alt="强大算力优势图标"', 'alt="Powerful compute advantage icon"'],
   ['秒级扩容，按需付费，<br>资源利用最大化', 'Scale in seconds with pay-as-you-go pricing<br>and maximized resource utilization'],
@@ -233,8 +233,8 @@ const translations = [
   ['alt="安全可靠优势图标"', 'alt="Security and reliability advantage icon"'],
   ['alt="智能运维优势图标"', 'alt="Intelligent operations advantage icon"'],
   ['alt="专业服务优势图标"', 'alt="Professional services advantage icon"'],
-  ['content: "紫微智能科技";', 'content: "ZIWEI Intelligence";'],
-  ['<span class="brand-cn">紫微智能科技</span>', '<span class="brand-cn">ZIWEI Intelligence</span>'],
+  ['content: "紫微智能科技";', 'content: "ZIWEI Tech";'],
+  ['<span class="brand-cn">紫微智能科技</span>', '<span class="brand-cn">ZIWEI Tech</span>'],
   ['>合作伙伴<', '>Partners<'],
   ['>资质荣誉<', '>Certifications<'],
   ['>GPU 算力实例<', '>GPU Compute Instances<'],
@@ -249,7 +249,7 @@ const translations = [
   ['>医疗健康<', '>Healthcare<'],
   ['>智慧城市<', '>Smart Cities<'],
   ['>互联网与内容<', '>Internet & Content<'],
-  ['© 紫微智能科技（北京）有限公司', '© ZIWEI Intelligence (Beijing) Co., Ltd.'],
+  ['© 紫微智能科技（北京）有限公司', '© ZIWEI Tech (Beijing) Co., Ltd.'],
   ['/* 仅桌面端预留滚动条槽位，避免与资讯页跳转时顶栏抖动；移动端关闭以免影响自适应 */', '/* Reserve scrollbar gutter on desktop only; disabled on mobile for responsive layout */'],
 ];
 
