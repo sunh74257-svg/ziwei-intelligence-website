@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ziweitech.com/sitemap.xml
+Sitemap: https://www.ziwei.ink/sitemap.xml
+
+# GEO: https://www.ziwei.ink/llms.txt

@@ -28,35 +28,47 @@ if (!src.includes("location.hash)")) {
 
 const headOld = `  <title>紫微智能科技 | AI 算能基础设施</title>
   <meta name="description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署，助力企业 AI 算能基础设施建设。" />
-  <link rel="canonical" href="https://www.ziweitech.com/" />
-  <link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/" />
-  <link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/" />
+  <link rel="canonical" href="https://www.ziwei.ink/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/" />
+  <link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:title" content="紫微智能科技 | AI 算能基础设施" />
   <meta property="og:description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署。" />
-  <meta property="og:url" content="https://www.ziweitech.com/" />`;
+  <meta property="og:url" content="https://www.ziwei.ink/" />
+  <meta property="og:site_name" content="紫微智能科技" />
+  <meta property="og:image" content="https://www.ziwei.ink/assets/images/hero-ai-platform.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="紫微智能科技 | AI 算能基础设施" />
+  <meta name="twitter:description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署。" />
+  <meta name="twitter:image" content="https://www.ziwei.ink/assets/images/hero-ai-platform.png" />`;
 
 const headNew = `  <title>ZIWEI Tech | AI Compute Infrastructure</title>
   <meta name="description" content="ZIWEI Tech delivers high-performance GPU clusters, elastic AI compute platforms, and full-stack services for model training, accelerated inference, and private enterprise deployment." />
-  <link rel="canonical" href="https://www.ziweitech.com/en/" />
-  <link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/" />
-  <link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/" />
+  <link rel="canonical" href="https://www.ziwei.ink/en/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/" />
+  <link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="ZIWEI Tech | AI Compute Infrastructure" />
   <meta property="og:description" content="High-performance GPU clusters, elastic AI compute platforms, and full-stack AI services for training, inference, and enterprise deployment." />
-  <meta property="og:url" content="https://www.ziweitech.com/en/" />`;
+  <meta property="og:url" content="https://www.ziwei.ink/en/" />
+  <meta property="og:site_name" content="ZIWEI Tech" />
+  <meta property="og:image" content="https://www.ziwei.ink/assets/images/hero-ai-platform.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ZIWEI Tech | AI Compute Infrastructure" />
+  <meta name="twitter:description" content="High-performance GPU clusters, elastic AI compute platforms, and full-stack AI services for training, inference, and enterprise deployment." />
+  <meta name="twitter:image" content="https://www.ziwei.ink/assets/images/hero-ai-platform.png" />`;
 
 src = src.replace(headOld, headNew);
 
 src = src.replace(
   `"name": "紫微智能科技（北京）有限公司",
         "alternateName": "ZIWEI Tech",
-        "url": "https://www.ziweitech.com/",
-        "logo": "https://www.ziweitech.com/assets/images/ziwei-logo-mark.png",
+        "url": "https://www.ziwei.ink/",
+        "logo": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png",
         "email": "service@ziweitech.com",
         "telephone": "+86-400-888-8888",
         "description": "领先的 AI 算能基础设施与平台服务商"
@@ -64,12 +76,12 @@ src = src.replace(
       {
         "@type": "WebSite",
         "name": "紫微智能科技",
-        "url": "https://www.ziweitech.com/",
+        "url": "https://www.ziwei.ink/",
         "inLanguage": "zh-CN"`,
   `"name": "ZIWEI Tech (Beijing) Co., Ltd.",
         "alternateName": "ZIWEI Tech",
-        "url": "https://www.ziweitech.com/en/",
-        "logo": "https://www.ziweitech.com/assets/images/ziwei-logo-mark.png",
+        "url": "https://www.ziwei.ink/en/",
+        "logo": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png",
         "email": "service@ziweitech.com",
         "telephone": "+86-400-888-8888",
         "description": "Leading AI compute infrastructure and platform provider"
@@ -77,7 +89,7 @@ src = src.replace(
       {
         "@type": "WebSite",
         "name": "ZIWEI Tech",
-        "url": "https://www.ziweitech.com/en/",
+        "url": "https://www.ziwei.ink/en/",
         "inLanguage": "en"`
 );
 
@@ -124,14 +136,14 @@ const translations = [
   ['aria-label="产品矩阵入口"', 'aria-label="Product matrix"'],
   ['>产品矩阵入口<', '>Product Portfolio<'],
   ['探索紫微智能科技旗下两大核心产品', 'Explore ZIWEI Tech\'s two core product lines'],
-  ['<h3>产品官网 A</h3>\n                    <h4>心理健康 AI 平台</h4>', '<h3>Mental Health AI Platform</h3>'],
+  ['<h3>心语AI</h3>\n                    <h4>心理健康 AI 平台</h4>', '<h3>Xinyu AI</h3>\n                    <h4>Mental Health AI Platform</h4>'],
   ['>心理陪伴<', '>AI companion support<'],
   ['>情绪疏导<', '>Emotional support<'],
   ['>智能问答<', '>Intelligent Q&A<'],
   ['基于 AI 技术的心理健康服务平台，提供心理陪伴、情绪疏导与智能问答，守护每一份心灵健康。', 'An AI-powered mental health platform offering companion support, emotional guidance, and intelligent Q&A.'],
   ['>访问官网 <', '>Visit Site <'],
   ['>了解更多<', '>Learn More<'],
-  ['<h3>产品官网 B</h3>\n                    <h4>AI 算能平台</h4>', '<h3>AI Compute Platform</h3>'],
+  ['<h3>算权宝</h3>\n                    <h4>AI 算能平台</h4>', '<h3>Suanquanbao</h3>\n                    <h4>AI Compute Platform</h4>'],
   ['>算力调度<', '>Compute scheduling<'],
   ['>资源管理<', '>Resource management<'],
   ['>弹性扩展<', '>Elastic scaling<'],
@@ -201,12 +213,12 @@ const translations = [
   ['>新闻动态<', '>News<'],
   ['>加入我们<', '>Careers<'],
   ['>联系方式<', '>Contact Info<'],
-  ['alt="心理健康 AI 平台图标"', 'alt="Mental health AI platform icon"'],
-  ['aria-label="产品官网 A 能力标签"', 'aria-label="Product site A capability tags"'],
-  ['alt="心理健康 AI 平台产品界面示意"', 'alt="Mental health AI platform UI preview"'],
-  ['alt="AI 算能平台图标"', 'alt="AI compute platform icon"'],
-  ['aria-label="产品官网 B 能力标签"', 'aria-label="Product site B capability tags"'],
-  ['alt="AI 算能平台控制台与集群示意"', 'alt="AI compute platform console and cluster preview"'],
+  ['alt="心语AI 图标"', 'alt="Xinyu AI icon"'],
+  ['aria-label="心语AI 能力标签"', 'aria-label="Xinyu AI capability tags"'],
+  ['alt="心语AI 产品界面示意"', 'alt="Xinyu AI UI preview"'],
+  ['alt="算权宝 图标"', 'alt="Suanquanbao icon"'],
+  ['aria-label="算权宝 能力标签"', 'aria-label="Suanquanbao capability tags"'],
+  ['alt="算权宝 控制台与集群示意"', 'alt="Suanquanbao console and cluster preview"'],
   ['alt="GPU 算力实例图标"', 'alt="GPU compute instances icon"'],
   ['alt="高性能存储图标"', 'alt="High-performance storage icon"'],
   ['alt="高速网络图标"', 'alt="High-speed networking icon"'],

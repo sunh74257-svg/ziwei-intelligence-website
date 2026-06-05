@@ -32,7 +32,7 @@
 
   /** 将 head 里 hreflang 的正式 URL 转为本地可跳转地址（优先相对路径，兼容 file://） */
   const hreflangToLocalFileUrl = (hreflangHref) => {
-    const parsed = new URL(hreflangHref, "https://www.ziweitech.com/");
+    const parsed = new URL(hreflangHref, "https://www.ziwei.ink/");
     let siteRel = parsed.pathname;
     if (siteRel.endsWith("/")) {
       siteRel += "index.html";

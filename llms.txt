@@ -1,0 +1,46 @@
+# 紫微智能科技 / ZIWEI Tech
+
+> 领先的 AI 算能基础设施与平台服务商，提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务。
+
+## 关于我们
+
+紫微智能科技（北京）有限公司（ZIWEI Tech）专注于 AI 算能基础设施建设，覆盖 GPU 算力实例、高性能存储、高速 RDMA 网络、模型训练平台、推理加速服务与企业级私有化部署。
+
+- 官网（中文）：https://www.ziwei.ink/
+- 官网（英文）：https://www.ziwei.ink/en/
+- 联系邮箱：service@ziweitech.com
+- 客服电话：400-888-8888
+
+## 核心页面
+
+- 首页（中文）：https://www.ziwei.ink/
+- 首页（英文）：https://www.ziwei.ink/en/
+- 资讯中心（中文）：https://www.ziwei.ink/blog/
+- 资讯中心（英文）：https://www.ziwei.ink/en/blog/
+
+## 产品矩阵
+
+- 心语AI / 心理健康 AI 平台（心理陪伴、情绪疏导、智能问答）：https://xinyu.bitsafe.cloud/
+- 算权宝 / AI 算能平台（算力调度、资源管理、弹性扩展）：https://compute.bitsafe.cloud/
+
+## 核心能力
+
+- GPU 算力实例与弹性伸缩
+- 高性能并行存储
+- 高速 RDMA 网络
+- 模型训练平台（兼容 PyTorch、TensorFlow 等）
+- 推理加速服务
+- 企业私有化部署
+
+## 资讯文章
+
+- 什么是 AI 算能基础设施？企业如何选型（中文）：https://www.ziwei.ink/blog/posts/what-is-ai-suan-neng.html
+- What Is AI Compute Infrastructure? A Buyer's Guide（英文）：https://www.ziwei.ink/en/blog/posts/what-is-ai-compute.html
+
+## 引用指南
+
+引用本站点内容时，请注明来源「紫微智能科技」或「ZIWEI Tech」，并附上对应页面链接。技术文章以页面 canonical URL 为准。
+
+## 站点地图
+
+https://www.ziwei.ink/sitemap.xml

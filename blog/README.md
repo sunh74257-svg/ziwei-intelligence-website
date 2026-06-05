@@ -48,9 +48,9 @@ ziwei-intelligence-website/
    - `<link rel="canonical">`：**指向当前页面自身 URL**
    - hreflang 三件套（示例）：
      ```html
-     <link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/blog/posts/xxx.html" />
-     <link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/blog/posts/yyy.html" />
-     <link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/blog/posts/xxx.html" />
+     <link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/xxx.html" />
+     <link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/yyy.html" />
+     <link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/xxx.html" />
      ```
    - 更新 JSON-LD `BlogPosting` 的 `headline`、`description`、`inLanguage`
 
@@ -66,13 +66,13 @@ ziwei-intelligence-website/
 
    ```xml
    <url>
-     <loc>https://www.ziweitech.com/blog/posts/xxx.html</loc>
+     <loc>https://www.ziwei.ink/blog/posts/xxx.html</loc>
      <lastmod>2026-06-02</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.7</priority>
-     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziweitech.com/blog/posts/xxx.html" />
-     <xhtml:link rel="alternate" hreflang="en" href="https://www.ziweitech.com/en/blog/posts/yyy.html" />
-     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziweitech.com/blog/posts/xxx.html" />
+     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/xxx.html" />
+     <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/yyy.html" />
+     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/xxx.html" />
    </url>
    ```
 
