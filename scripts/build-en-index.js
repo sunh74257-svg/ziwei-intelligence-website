@@ -259,7 +259,7 @@ const translations = [
   ['>医疗健康<', '>Healthcare<'],
   ['>智慧城市<', '>Smart Cities<'],
   ['>互联网与内容<', '>Internet & Content<'],
-  ['© 紫微智能科技（北京）有限公司', '© ZIWEI Tech (Beijing) Co., Ltd.'],
+  ['<span>© 紫微智能科技有限公司</span>', '<span>© ZIWEI Tech Co., Ltd.</span>'],
   ['/* 仅桌面端预留滚动条槽位，避免与资讯页跳转时顶栏抖动；移动端关闭以免影响自适应 */', '/* Reserve scrollbar gutter on desktop only; disabled on mobile for responsive layout */'],
 ];
 
