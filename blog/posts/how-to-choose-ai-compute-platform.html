@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMFFYVDMB1"></script>
+  <script src="../../assets/js/gtag-config.js"></script>
+  <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+  <title>企业如何选择 AI 算力平台？核心能力与建设方案｜紫微智能科技</title>
+  <meta name="description" content="AI 算力平台是企业开展大模型训练、推理部署、AI 应用开发和算力资源管理的重要基础设施。本文介绍 AI 算力平台的定义、核心能力、适用场景、选型标准以及企业建设 AI 算力平台时需要关注的问题。" />
+  <meta name="keywords" content="AI 算力平台，AI 算能基础设施，GPU 算力集群，大模型训练算力，模型训练平台，推理加速，企业 AI 算能建设，AI 私有化部署，紫微智能科技" />
+  <link rel="canonical" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+  <link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+  <link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/how-to-choose-ai-compute-platform.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="企业如何选择 AI 算力平台？核心能力与建设方案" />
+  <meta property="og:description" content="介绍 AI 算力平台的定义、核心能力、适用场景、选型标准与企业建设要点。" />
+  <meta property="og:url" content="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="紫微智能科技" />
+  <meta property="og:image" content="https://www.ziwei.ink/assets/images/hero-ai-platform.png" />
+  <meta property="article:published_time" content="2026-06-02" />
+  <meta property="article:modified_time" content="2026-06-02" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="企业如何选择 AI 算力平台？核心能力与建设方案" />
+  <meta name="twitter:description" content="介绍 AI 算力平台的定义、核心能力、适用场景、选型标准与企业建设要点。" />
+  <meta name="twitter:image" content="https://www.ziwei.ink/assets/images/hero-ai-platform.png" />
+  <link rel="stylesheet" href="../../assets/css/site-nav.css" />
+  <link rel="stylesheet" href="../../assets/css/mobile-nav.css" />
+  <link rel="stylesheet" href="../../assets/css/nav-lang.css" />
+  <link rel="stylesheet" href="../../assets/css/blog.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://www.ziwei.ink/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "资讯中心",
+            "item": "https://www.ziwei.ink/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "企业如何选择 AI 算力平台？AI 算力平台的核心能力与建设方案",
+            "item": "https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html"
+          }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "企业如何选择 AI 算力平台？AI 算力平台的核心能力与建设方案",
+        "description": "AI 算力平台是企业开展大模型训练、推理部署、AI 应用开发和算力资源管理的重要基础设施。本文介绍 AI 算力平台的定义、核心能力、适用场景、选型标准以及企业建设 AI 算力平台时需要关注的问题。",
+        "url": "https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html",
+        "image": "https://www.ziwei.ink/assets/images/hero-ai-platform.png",
+        "datePublished": "2026-06-02",
+        "dateModified": "2026-06-02",
+        "author": {
+          "@type": "Organization",
+          "name": "紫微智能科技（北京）有限公司"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "紫微智能科技（北京）有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html"
+        },
+        "inLanguage": "zh-CN"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="site">
+    <header class="nav-wrap" aria-label="顶部导航">
+      <nav class="nav">
+        <a class="brand" href="../../index.html" aria-label="紫微智能科技首页">
+          <img class="brand-mark" src="../../assets/images/ziwei-logo-mark.png" alt="紫微智能科技标志" />
+          <span class="brand-name">
+            <span class="brand-cn">紫微智能科技</span>
+            <span class="brand-en">ZIWEI Tech</span>
+          </span>
+        </a>
+        <div class="menu" aria-label="主导航">
+          <a href="../../index.html">首页</a>
+          <a href="../../index.html#products">产品服务</a>
+          <a href="../../index.html#solutions">解决方案</a>
+          <a href="../../index.html#advantages">平台优势</a>
+          <a class="active" href="../index.html" aria-current="page">资讯中心</a>
+          <a href="../../index.html#contact">联系我们</a>
+        </div>
+        <button type="button" class="nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="site-mobile-nav">
+          <span class="nav-toggle-lines" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <div class="nav-lang" role="navigation" aria-label="语言切换">
+          <button type="button" class="nav-lang-link is-active" data-lang="zh" aria-current="true">中文</button>
+          <span class="nav-lang-sep" aria-hidden="true">/</span>
+          <button type="button" class="nav-lang-link" data-lang="en" aria-current="false">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+    <aside id="site-mobile-nav" class="mobile-nav-drawer" aria-hidden="true" aria-label="移动端导航">
+      <div class="mobile-nav-head">
+        <a class="brand mobile-nav-brand" href="../../index.html" aria-label="紫微智能科技首页"></a>
+        <button type="button" class="mobile-nav-close" aria-label="关闭菜单">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-nav-body">
+        <nav class="menu menu--drawer" aria-label="站点导航"></nav>
+      </div>
+      <div class="mobile-nav-foot">
+        <div class="nav-lang nav-lang--drawer" role="navigation" aria-label="语言切换">
+          <button type="button" class="nav-lang-link is-active" data-lang="zh" aria-current="true">中文</button>
+          <span class="nav-lang-sep" aria-hidden="true">|</span>
+          <button type="button" class="nav-lang-link" data-lang="en" aria-current="false">EN</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="blog-main">
+      <a class="back-link" href="../index.html">← 返回资讯列表</a>
+      <div class="blog-eyebrow">AI 算力平台</div>
+      <h1>企业如何选择 AI 算力平台？AI 算力平台的核心能力与建设方案</h1>
+      <div class="article-meta">
+        <time datetime="2026-06-02">发布日期：2026-06-02</time>
+        <span>阅读约 11 分钟</span>
+      </div>
+
+      <article class="article-body">
+        <p>
+          随着大模型、智能客服、企业知识库、AI 绘图、智能风控、工业视觉检测等应用逐渐落地，越来越多企业开始关注 AI 算力平台。过去，企业做 AI 项目可能只需要购买几台 GPU 服务器。但当模型训练任务增多、推理服务上线、多个团队同时使用 GPU 资源时，单台服务器或零散算力已经很难满足业务需求。
+        </p>
+        <p>
+          这时，企业需要的不只是 GPU，而是一套能够统一管理算力资源、支持模型训练、推理部署、任务调度和安全运维的 AI 算力平台。紫微智能科技围绕企业 AI 算能建设，提供 GPU 算力集群、模型训练平台、推理加速服务、RDMA 高速网络、高性能存储和私有化部署方案，帮助企业构建稳定、高效、可扩展的 AI 算力平台。
+        </p>
+
+        <h2>一、什么是 AI 算力平台？</h2>
+        <p>
+          AI 算力平台，是为 AI 模型训练、模型推理和 AI 应用运行提供算力资源与管理能力的平台系统。它不是单纯的 GPU 服务器，也不是普通云主机，而是一套面向 AI 场景设计的综合平台。
+        </p>
+        <p>一个完整的 AI 算力平台通常包括：</p>
+        <ol>
+          <li>GPU 算力资源</li>
+          <li>GPU 算力集群</li>
+          <li>高速网络</li>
+          <li>高性能存储</li>
+          <li>模型训练环境</li>
+          <li>推理部署能力</li>
+          <li>算力调度系统</li>
+          <li>用户权限管理</li>
+          <li>监控运维能力</li>
+          <li>私有化部署能力</li>
+        </ol>
+        <p>简单来说，AI 算力平台的核心作用是：让企业更高效地使用 GPU 算力，更稳定地训练模型，更低成本地部署 AI 应用。</p>
+
+        <h2>二、企业为什么需要 AI 算力平台？</h2>
+        <p>
+          很多企业在 AI 项目早期，会直接租用 GPU 云服务器，或者采购单台 GPU 设备进行测试。这种方式适合小规模验证，但不适合长期业务建设。当企业 AI 业务发展到一定阶段，通常会遇到这些问题：
+        </p>
+        <ul>
+          <li>GPU 资源分散，无法统一管理</li>
+          <li>多个团队抢占算力，任务排队严重</li>
+          <li>模型训练环境重复配置，效率低</li>
+          <li>推理服务部署复杂，稳定性不足</li>
+          <li>GPU 使用率不高，资源浪费严重</li>
+          <li>数据安全和权限管理压力增加</li>
+          <li>缺少统一监控和运维体系</li>
+        </ul>
+        <p>
+          AI 算力平台就是为了解决这些问题。它可以把 GPU、网络、存储、训练框架、推理服务和资源调度统一起来，让企业从「临时使用算力」升级为「系统化建设 AI 能力」。
+        </p>
+
+        <h2>三、AI 算力平台包含哪些核心能力？</h2>
+
+        <h3>1. GPU 算力集群</h3>
+        <p>GPU 是 AI 算力平台的核心资源。大模型训练、图像识别、语音识别、视频分析、推荐算法和生成式 AI 都需要大量 GPU 计算能力。</p>
+        <p>企业常见的 GPU 算力需求包括：</p>
+        <ul>
+          <li>大模型预训练</li>
+          <li>大模型微调</li>
+          <li>企业知识库问答</li>
+          <li>AIGC 内容生成</li>
+          <li>工业视觉检测</li>
+          <li>智能客服推理</li>
+          <li>金融风控模型训练</li>
+          <li>医疗影像识别</li>
+        </ul>
+        <p>相比普通 CPU 云服务器，GPU 算力集群更适合处理大规模并行计算任务。</p>
+
+        <h3>2. 模型训练平台</h3>
+        <p>AI 算力平台不能只提供 GPU，还需要让算法团队方便地使用 GPU。模型训练平台主要用于管理训练任务、训练环境、数据集、模型版本和运行日志。</p>
+        <p>常见能力包括：</p>
+        <ul>
+          <li>PyTorch 训练环境</li>
+          <li>TensorFlow 训练环境</li>
+          <li>分布式训练任务管理</li>
+          <li>数据集管理</li>
+          <li>模型版本管理</li>
+          <li>训练日志查看</li>
+          <li>GPU 使用情况查看</li>
+          <li>多用户任务隔离</li>
+        </ul>
+        <p>对于企业来说，模型训练平台可以减少重复配置环境的时间，让算法团队更专注于模型开发和优化。</p>
+
+        <h3>3. 推理部署与推理加速</h3>
+        <p>模型训练完成后，还需要部署到业务系统中提供服务，这就是模型推理。推理部署是 AI 算力平台非常重要的一部分，因为企业最终需要的是 AI 应用落地，而不只是训练模型。</p>
+        <p>常见推理场景包括：</p>
+        <ul>
+          <li>智能客服</li>
+          <li>企业知识库</li>
+          <li>文本生成</li>
+          <li>图片生成</li>
+          <li>语音识别</li>
+          <li>视频分析</li>
+          <li>风控识别</li>
+          <li>工业质检</li>
+        </ul>
+        <p>推理加速可以提升模型响应速度，降低 GPU 资源消耗，让同样的算力承载更多业务请求。</p>
+
+        <h3>4. 算力调度与资源弹性扩缩</h3>
+        <p>企业内部通常会有多个团队共用 GPU 资源，例如算法团队、产品团队、数据团队和业务团队。如果没有统一调度，很容易出现资源浪费或者任务冲突。</p>
+        <p>AI 算力平台需要支持：</p>
+        <ul>
+          <li>GPU 资源分配</li>
+          <li>任务优先级管理</li>
+          <li>训练任务排队</li>
+          <li>推理服务扩容</li>
+          <li>空闲资源回收</li>
+          <li>多租户隔离</li>
+          <li>资源使用统计</li>
+        </ul>
+        <p>好的算力调度能力，可以显著提高 GPU 使用率，降低企业 AI 算力成本。</p>
+
+        <h3>5. 高速网络与高性能存储</h3>
+        <p>在大模型训练和分布式训练场景中，网络和存储同样重要。如果 GPU 很强，但数据读取慢、节点通信慢，训练效率仍然会受到影响。</p>
+        <p>AI 算力平台通常需要配套：</p>
+        <ul>
+          <li>RDMA 高速网络</li>
+          <li>多机多卡互联</li>
+          <li>高性能并行文件系统</li>
+          <li>大模型训练数据存储</li>
+          <li>checkpoint 快速读写</li>
+          <li>多节点并发访问</li>
+        </ul>
+        <p>对于大模型训练来说，AI 算力平台不是简单堆 GPU，而是要同时考虑计算、网络和存储的整体性能。</p>
+
+        <h3>6. 私有化部署与安全管理</h3>
+        <p>对于金融、医疗、政企、制造等行业来说，数据安全和合规非常重要。这些企业往往不能把核心数据随意上传到外部平台，因此更适合采用私有化部署或专有云算力方案。</p>
+        <p>私有化 AI 算力平台可以部署在企业本地机房、专有云环境或指定数据中心中。它的优势包括：</p>
+        <ul>
+          <li>数据不出企业环境</li>
+          <li>权限管理更可控</li>
+          <li>系统可按业务定制</li>
+          <li>更适合长期稳定使用</li>
+          <li>满足安全和合规要求</li>
+        </ul>
+        <p>对于有长期 AI 规划的企业来说，私有化 AI 算力平台是一种更稳定的建设方式。</p>
+
+        <h2>四、AI 算力平台适合哪些企业？</h2>
+        <p>AI 算力平台适合已经开始建设 AI 能力，或者计划长期使用 AI 的企业。尤其适合以下类型：</p>
+        <p><strong>1. 有大模型训练需求的企业</strong> — 例如自研大模型、行业模型、垂直领域模型，或者需要对开源模型进行微调的企业。</p>
+        <p><strong>2. 有大量推理请求的企业</strong> — 例如智能客服、企业知识库、AI 助手、AI 搜索、内容生成平台等。</p>
+        <p><strong>3. 多团队共用 GPU 的企业</strong> — 如果企业内部多个部门都需要 GPU 算力，就需要统一的 AI 算力平台来管理资源。</p>
+        <p><strong>4. 对数据安全要求高的企业</strong> — 金融、医疗、政企、制造等行业，更适合建设私有化 AI 算力平台。</p>
+        <p><strong>5. 希望降低长期算力成本的企业</strong> — 长期大量使用 GPU 时，零散租用算力可能成本较高，统一建设 AI 算力平台更有利于资源复用和成本控制。</p>
+
+        <h2>五、企业选择 AI 算力平台时要看哪些指标？</h2>
+        <p>企业在选择 AI 算力平台时，不建议只看 GPU 型号和价格，还要看整体能力。可以重点关注以下几个方面：</p>
+        <p><strong>1. 是否支持完整的训练和推理流程</strong> — 一个好的 AI 算力平台，应该同时支持模型训练、模型微调、模型管理和推理部署。如果只能提供 GPU 服务器，后续很多工作仍然需要企业自己完成。</p>
+        <p><strong>2. 是否具备 GPU 集群管理能力</strong> — 企业需要关注平台是否支持多 GPU、多节点、多任务和多用户管理。尤其是大模型训练场景，GPU 集群管理能力非常关键。</p>
+        <p><strong>3. 是否支持弹性扩缩和资源调度</strong> — AI 任务具有明显波动性。训练任务可能短时间消耗大量 GPU，推理服务又需要长期稳定运行。所以 AI 算力平台需要具备灵活的资源调度能力。</p>
+        <p><strong>4. 是否支持私有化部署</strong> — 如果企业涉及敏感数据、内部业务系统或行业合规要求，私有化部署能力非常重要。</p>
+        <p><strong>5. 是否提供持续运维服务</strong> — AI 算力平台不是一次性交付系统，后续还涉及监控、故障处理、性能优化、扩容和安全维护。企业选择服务商时，要看对方是否具备长期运维和技术支持能力。</p>
+
+        <h2>六、公有云 AI 算力平台和私有化 AI 算力平台怎么选？</h2>
+        <p>企业可以根据业务阶段选择不同方式。</p>
+        <p><strong>公有云 AI 算力平台适合：</strong></p>
+        <ul>
+          <li>项目早期验证</li>
+          <li>短期训练任务</li>
+          <li>预算有限</li>
+          <li>算力需求不稳定</li>
+          <li>不想投入硬件成本</li>
+        </ul>
+        <p>优点是启动快、灵活；缺点是长期成本可能较高，数据和系统定制能力有限。</p>
+        <p><strong>私有化 AI 算力平台适合：</strong></p>
+        <ul>
+          <li>长期 AI 业务</li>
+          <li>大规模模型训练</li>
+          <li>数据安全要求高</li>
+          <li>多团队共用算力</li>
+          <li>需要系统定制</li>
+          <li>有合规要求的行业</li>
+        </ul>
+        <p>优点是可控性强、长期稳定、适合深度定制；缺点是前期建设成本相对更高。对于企业来说，如果只是测试 AI 项目，可以先使用公有云算力；如果已经进入长期建设阶段，则更适合考虑私有化 AI 算力平台。</p>
+
+        <h2>七、紫微智能科技 AI 算力平台能提供什么？</h2>
+        <p>紫微智能科技面向企业 AI 场景，提供从算力资源到平台建设的一体化 AI 算能服务。核心能力包括：</p>
+        <ul>
+          <li>GPU 算力实例</li>
+          <li>GPU 算力集群</li>
+          <li>AI 算力平台建设</li>
+          <li>模型训练平台</li>
+          <li>分布式训练环境</li>
+          <li>推理加速服务</li>
+          <li>RDMA 高速网络</li>
+          <li>高性能存储</li>
+          <li>GPU 资源调度</li>
+          <li>企业私有化部署</li>
+          <li>专有云算力方案</li>
+          <li>AI 算能基础设施建设</li>
+        </ul>
+        <p>
+          紫微智能科技可以根据企业业务场景、模型规模、数据安全要求和预算情况，提供适合的 AI 算力平台建设方案，帮助企业更高效地完成 AI 应用落地。欢迎访问<a href="../../index.html#product-services">产品服务</a>了解详情，或通过<a href="../../index.html#contact">联系我们</a>获取方案评估。
+        </p>
+
+        <h2>八、AI 算力平台在不同行业的应用场景</h2>
+        <p><strong>金融行业</strong> — 金融行业可以通过 AI 算力平台支持智能风控、智能投研、反欺诈识别、客户画像和金融大模型训练。由于金融数据敏感，通常更适合采用私有化 AI 算力平台。</p>
+        <p><strong>医疗行业</strong> — 医疗行业可以利用 AI 算力平台进行医学影像识别、辅助诊断、医学知识库建设和科研模型训练。医疗数据对安全和合规要求较高，因此需要稳定、安全的 AI 算力基础设施。</p>
+        <p><strong>制造行业</strong> — 制造企业可以通过 AI 算力平台支持工业视觉检测、缺陷识别、预测性维护和生产流程优化。这类场景通常既需要模型训练，也需要稳定的推理部署能力。</p>
+        <p><strong>互联网行业</strong> — 互联网企业常见需求包括推荐系统、搜索排序、内容审核、AIGC 内容生成和智能客服。这类场景通常对弹性 GPU 算力和推理并发能力要求较高。</p>
+        <p><strong>智慧城市</strong> — 智慧城市场景涉及视频分析、交通识别、城市治理、安防监控和多模态数据处理，需要稳定的 GPU 算力集群和高性能存储能力。</p>
+
+        <h2>九、总结：AI 算力平台是企业 AI 落地的重要底座</h2>
+        <p>
+          AI 应用能否真正落地，不只取决于模型能力，也取决于企业是否具备稳定、高效、可扩展的 AI 算力平台。对于企业来说，AI 算力平台的价值不只是提供 GPU，而是帮助企业完成从模型训练、推理部署、资源调度到安全运维的完整闭环。
+        </p>
+        <p>
+          未来，随着大模型和智能应用持续发展，AI 算力平台会成为企业数字化和智能化建设中的核心基础设施。紫微智能科技将持续围绕 AI 算力平台、AI 算能基础设施、GPU 算力集群、模型训练平台、推理加速和企业私有化部署，为企业提供稳定、高效、可扩展的 AI 算能建设方案。
+        </p>
+
+        <h2>FAQ：AI 算力平台常见问题</h2>
+        <p><strong>1. 什么是 AI 算力平台？</strong><br />AI 算力平台是为 AI 模型训练、模型推理和 AI 应用运行提供 GPU 算力、训练环境、推理部署、资源调度和运维管理的平台系统。</p>
+        <p><strong>2. AI 算力平台和普通云服务器有什么区别？</strong><br />普通云服务器主要面向通用计算任务，而 AI 算力平台更适合大模型训练、深度学习、模型推理、图像识别和多机多卡分布式训练等 AI 场景。</p>
+        <p><strong>3. 企业为什么需要 AI 算力平台？</strong><br />企业需要 AI 算力平台，是为了统一管理 GPU 资源，提高模型训练效率，降低推理部署成本，并为多个团队提供稳定可复用的 AI 开发和运行环境。</p>
+        <p><strong>4. AI 算力平台包含哪些核心能力？</strong><br />AI 算力平台通常包含 GPU 算力集群、模型训练平台、推理加速服务、RDMA 高速网络、高性能存储、算力调度、权限管理和运维监控等能力。</p>
+        <p><strong>5. 企业如何选择 AI 算力平台？</strong><br />企业选择 AI 算力平台时，应关注 GPU 集群能力、训练和推理支持、资源调度能力、私有化部署能力、安全管理能力以及服务商的持续运维能力。</p>
+        <p><strong>6. 公有云 AI 算力平台和私有化部署怎么选？</strong><br />如果企业只是做短期测试，可以选择公有云 AI 算力平台；如果企业长期使用 AI、有敏感数据或合规要求，更适合选择私有化 AI 算力平台。</p>
+        <p><strong>7. 紫微智能科技可以提供 AI 算力平台建设吗？</strong><br />紫微智能科技可以提供 GPU 算力集群、模型训练平台、推理加速服务、RDMA 高速网络、高性能存储、企业私有化部署和 AI 算能基础设施建设服务。</p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <a href="../index.html">更多文章</a>
+        　·　<a href="../../index.html">官网首页</a>
+        　·　© 紫微智能科技有限公司
+        　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2023045328号-1</a>
+      </p>
+    </footer>
+  </div>
+  <script src="../../assets/js/mobile-nav.js"></script>
+  <script src="../../assets/js/lang-switch.js"></script>
+</body>
+</html>

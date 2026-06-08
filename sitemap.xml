@@ -38,8 +38,26 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/" />
   </url>
   <url>
+    <loc>https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/how-to-choose-ai-compute-platform.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/how-to-choose-ai-compute-platform.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/how-to-choose-ai-compute-platform.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html" />
+  </url>
+  <url>
     <loc>https://www.ziwei.ink/blog/posts/ai-suan-neng-infrastructure-guide.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/ai-suan-neng-infrastructure-guide.html" />
@@ -48,7 +66,7 @@
   </url>
   <url>
     <loc>https://www.ziwei.ink/en/blog/posts/ai-compute-infrastructure-guide.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/ai-suan-neng-infrastructure-guide.html" />

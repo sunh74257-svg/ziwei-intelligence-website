@@ -185,6 +185,8 @@ const translations = [
   ['从 GPU 算力、AI Compute 集群到训练推理平台，梳理 AI 算能建设路径与企业选型要点。', 'From GPU compute and AI compute clusters to training and inference platforms—key paths and selection criteria.'],
   ['blog/posts/what-is-ai-suan-neng.html', 'blog/posts/what-is-ai-compute.html'],
   ['blog/posts/ai-suan-neng-infrastructure-guide.html', 'blog/posts/ai-compute-infrastructure-guide.html'],
+  ['企业如何选择 AI 算力平台？AI 算力平台的核心能力与建设方案', 'How to Choose an AI Compute Platform: Core Capabilities and Build Guide'],
+  ['介绍 AI 算力平台的定义、六大核心能力、适用场景、选型标准，以及公有云与私有化建设方案。', 'Definitions, six core capabilities, use cases, selection criteria, and public cloud vs. private deployment options.'],
   ['AI 算能基础设施：企业 AI 落地与 GPU 算力建设指南', 'AI Compute Infrastructure: Enterprise AI Deployment and GPU Build Guide'],
   ['全面解读 GPU 算力集群、RDMA 网络、高性能存储、训练平台、推理加速与资源调度，助力企业 AI 落地。', 'A complete guide to GPU clusters, RDMA networking, storage, training platforms, inference acceleration, and resource scheduling.'],
   ['>阅读全文 →<', '>Read article →<'],
