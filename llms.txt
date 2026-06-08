@@ -34,6 +34,10 @@
 
 ## 资讯文章
 
+- 模型训练平台是什么？企业做 AI 训练为什么不能只靠 GPU 服务器（中文）：https://www.ziwei.ink/blog/posts/model-training-platform-guide.html
+- What Is a Model Training Platform? Why Enterprise AI Training Needs More Than GPU Servers（英文）：https://www.ziwei.ink/en/blog/posts/model-training-platform-guide.html
+- AI 私有化部署适合哪些企业？企业落地大模型前要考虑什么（中文）：https://www.ziwei.ink/blog/posts/ai-private-deployment-enterprise-guide.html
+- AI Private Deployment: Which Enterprises Fit and What to Consider Before LLM Rollout（英文）：https://www.ziwei.ink/en/blog/posts/ai-private-deployment-enterprise-guide.html
 - 企业私有化部署适合哪些 AI 场景？企业做 AI 系统落地前要考虑什么（中文）：https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html
 - Enterprise Private Deployment: Which AI Scenarios Fit and What to Consider（英文）：https://www.ziwei.ink/en/blog/posts/enterprise-ai-private-deployment-guide.html
 - 大模型推理部署怎么做？企业落地 AI 应用需要关注哪些问题（中文）：https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html
