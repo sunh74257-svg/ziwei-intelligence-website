@@ -1,0 +1,25 @@
+{
+  "name": "ziwei-intelligence-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "optimize:images": "node scripts/optimize-images.js",
+    "optimize:home": "node scripts/optimize-home-html.js",
+    "build:en": "node scripts/build-en-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunh74257-svg/ziwei-intelligence-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunh74257-svg/ziwei-intelligence-website/issues"
+  },
+  "homepage": "https://github.com/sunh74257-svg/ziwei-intelligence-website#readme",
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

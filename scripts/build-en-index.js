@@ -8,8 +8,10 @@ const pathFixes = [
   ['href="favicon.ico"', 'href="../favicon.ico"'],
   ['href="assets/css/', 'href="../assets/css/'],
   ['href="assets/js/', 'href="../assets/js/'],
+  ['href="assets/images/', 'href="../assets/images/'],
   ['src="assets/js/', 'src="../assets/js/'],
   ['src="assets/images/', 'src="../assets/images/'],
+  ['srcset="assets/images/', 'srcset="../assets/images/'],
 ];
 for (const [a, b] of pathFixes) src = src.split(a).join(b);
 
@@ -189,7 +191,7 @@ const translations = [
   ['紫微智能科技提供哪些核心能力？', 'What core capabilities does ZIWEI Tech provide?'],
   ['我们提供 GPU 算力实例、高性能存储、高速 RDMA 网络、模型训练平台、推理加速服务与私有化部署，覆盖从基础设施到平台运维的全栈 AI 算能能力。', 'We provide GPU compute instances, high-performance storage, high-speed RDMA networking, model training platforms, Accelerated Inference Services, and private deployment—full-stack AI compute from infrastructure to operations.'],
   ['如何申请试用算力平台？', 'How do I request a trial of the compute platform?'],
-  ['点击页面「申请试用」或「立即咨询」，填写业务场景与算力需求，专属顾问将在 1 个工作日内联系您，并提供免费技术方案评估。', 'Click "Request Trial" or "Contact Us," share your use case and compute requirements, and an advisor will respond within one business day with a free assessment.'],
+  ['点击页面「申请试用」或「立即咨询」，填写业务场景与算力需求，专属顾问将在 1 个工作日内联系您，并提供免费技术方案评估。', 'Click Request Trial or Contact Us on this page, share your use case and compute requirements, and an advisor will respond within one business day with a free assessment.'],
   ['支持哪些 GPU 与深度学习框架？', 'Which GPUs and deep learning frameworks are supported?'],
   ['平台支持 NVIDIA 主流 GPU 实例，训练平台兼容 PyTorch、TensorFlow 等常用框架，并提供分布式训练与弹性伸缩能力。', 'The platform supports mainstream NVIDIA GPU instances, PyTorch, TensorFlow, and other popular frameworks, with distributed training and elastic scaling.'],
   ['是否支持企业私有化部署？', 'Do you support enterprise private deployment?'],
@@ -267,8 +269,8 @@ for (const [a, b] of translations) src = src.split(a).join(b);
 
 // FAQ JSON-LD 等可能残留的中文引号文案
 const lateFixes = [
-  ['「申请试用」', '"Request Trial"'],
-  ['「立即咨询」', '"Contact Us"'],
+  ['「申请试用」', 'Request Trial'],
+  ['「立即咨询」', 'Contact Us'],
 ];
 for (const [a, b] of lateFixes) src = src.split(a).join(b);
 

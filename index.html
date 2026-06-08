@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMFFYVDMB1"></script>
-  <script src="assets/js/gtag-config.js"></script>
+  <script defer src="assets/js/gtag-config.js"></script>
   <script>
     if (location.hash) {
       document.documentElement.style.scrollBehavior = "auto";
@@ -13,6 +13,7 @@
   </script>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preload" as="image" href="assets/images/hero-ai-platform-servers.webp" type="image/webp" fetchpriority="high" />
   <title>紫微智能科技 | AI 算能基础设施</title>
   <meta name="description" content="紫微智能科技提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务，覆盖模型训练、推理加速与企业级私有化部署，助力企业 AI 算能基础设施建设。" />
   <link rel="canonical" href="https://www.ziwei.ink/" />
@@ -412,13 +413,6 @@
       z-index: -1;
     }
 
-    .tech-svg {
-      width: min(100%, 680px);
-      height: auto;
-      overflow: visible;
-      filter: drop-shadow(0 28px 40px rgba(80, 76, 159, 0.16));
-      display: none;
-    }
 
     .hero-art {
       width: min(100%, 730px);
@@ -2357,9 +2351,6 @@
         transform: none;
       }
 
-      .tech-svg {
-        display: none;
-      }
 
       .metrics {
         width: 100%;
@@ -3006,7 +2997,7 @@
     <header class="nav-wrap" aria-label="顶部导航">
       <nav class="nav">
         <a class="brand" href="#home" aria-label="紫微智能科技首页">
-          <img class="brand-mark" src="assets/images/ziwei-logo-mark.png" alt="紫微智能科技标志" />
+          <picture><source srcset="assets/images/ziwei-logo-mark.webp" type="image/webp" /><img class="brand-mark" src="assets/images/ziwei-logo-mark.png" alt="紫微智能科技标志" decoding="async"></picture>
           <span class="brand-name">
             <span class="brand-cn">紫微智能科技</span>
             <span class="brand-en">ZIWEI Tech</span>
@@ -3100,211 +3091,7 @@
       </section>
 
       <section class="visual" aria-label="AI 算力平台科技插画">
-        <img class="hero-art" src="assets/images/hero-ai-platform-servers.png" alt="AI 算力平台 3D 插画：云上传、服务器集群、AI 芯片与数据看板" />
-        <svg class="tech-svg" viewBox="0 0 760 590" role="img" aria-label="大型 AI 芯片、服务器集群、云算力和数据看板组合插画">
-          <defs>
-            <linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="1">
-              <stop stop-color="#8B76FF" />
-              <stop offset="0.52" stop-color="#5B45F0" />
-              <stop offset="1" stop-color="#4D95FF" />
-            </linearGradient>
-            <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
-              <stop stop-color="#74E3FF" />
-              <stop offset="0.45" stop-color="#638AFF" />
-              <stop offset="1" stop-color="#7652F6" />
-            </linearGradient>
-            <linearGradient id="gPanel" x1="0" y1="0" x2="1" y2="1">
-              <stop stop-color="#FFFFFF" />
-              <stop offset="1" stop-color="#EEF0FF" />
-            </linearGradient>
-            <linearGradient id="gServer" x1="0" y1="0" x2="1" y2="1">
-              <stop stop-color="#FFFFFF" />
-              <stop offset="0.54" stop-color="#F2F4FF" />
-              <stop offset="1" stop-color="#DDE4FF" />
-            </linearGradient>
-            <linearGradient id="gDarkRack" x1="0" y1="0" x2="1" y2="1">
-              <stop stop-color="#33427E" />
-              <stop offset="1" stop-color="#161D55" />
-            </linearGradient>
-            <radialGradient id="chipGlow" cx="50%" cy="47%" r="56%">
-              <stop stop-color="#B8F1FF" />
-              <stop offset="0.36" stop-color="#6C8DFF" />
-              <stop offset="0.68" stop-color="#6247F5" />
-              <stop offset="1" stop-color="#251B79" />
-            </radialGradient>
-            <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
-              <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4C4AA0" flood-opacity="0.18" />
-            </filter>
-            <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-              <feGaussianBlur stdDeviation="7" result="blur" />
-              <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.38 0 0 0 0 0.28 0 0 0 0 1 0 0 0 0.55 0" result="glow" />
-              <feMerge>
-                <feMergeNode in="glow" />
-                <feMergeNode in="SourceGraphic" />
-              </feMerge>
-            </filter>
-            <filter id="lineGlow" x="-60%" y="-60%" width="220%" height="220%">
-              <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#6252F2" flood-opacity="0.52" />
-            </filter>
-          </defs>
-
-          <g opacity="0.55">
-            <path d="M80 464C189 418 245 414 332 446C421 479 482 489 655 425" fill="none" stroke="#7F8CFF" stroke-width="1.4" />
-            <path d="M99 381C208 337 282 354 374 389C462 423 532 410 683 345" fill="none" stroke="#C8CEFF" stroke-width="1.2" />
-            <path d="M114 300C222 254 314 281 408 315C498 348 567 323 696 260" fill="none" stroke="#DEE3FF" stroke-width="1.2" />
-          </g>
-
-          <g opacity="0.72">
-            <path d="M75 478L251 395L415 461L244 548Z" fill="#F0F3FF" />
-            <path d="M251 395L681 189L708 236L415 461Z" fill="#F6F8FF" />
-            <path d="M105 432L253 361L542 480L392 556Z" fill="none" stroke="#D8DDF8" stroke-width="1.2" />
-            <path d="M187 394L474 511M272 353L558 471M356 316L640 433" stroke="#DDE2FB" stroke-width="1" />
-            <path d="M251 361L391 557M335 321L475 517M420 281L558 477M504 241L641 438" stroke="#DDE2FB" stroke-width="1" />
-          </g>
-
-          <g class="float-b" filter="url(#softShadow)">
-            <path d="M344 84L424 44L518 74L438 117Z" fill="#F9FAFF" />
-            <path d="M344 84v176l94 39V117Z" fill="#E8ECFF" />
-            <path d="M438 117l80-43v176l-80 49Z" fill="#D9E0FB" />
-            <path d="M359 100L430 126v31l-71-27Z" fill="url(#gDarkRack)" />
-            <path d="M359 145L430 171v31l-71-27Z" fill="url(#gDarkRack)" />
-            <path d="M359 190L430 216v31l-71-27Z" fill="url(#gDarkRack)" />
-            <path d="M455 125l48-26v118l-48 30Z" fill="#F4F6FF" opacity="0.82" />
-            <path d="M373 113l38 14M373 158l38 14M373 203l38 14" stroke="#7EDCFF" stroke-width="3" stroke-linecap="round" />
-            <circle cx="421" cy="132" r="3" fill="#74E3FF" />
-            <circle cx="421" cy="177" r="3" fill="#74E3FF" />
-            <circle cx="421" cy="222" r="3" fill="#74E3FF" />
-            <path d="M344 84L424 44L518 74M438 117v182" fill="none" stroke="#BDC8F3" stroke-width="1.4" />
-          </g>
-
-          <g class="float-a" filter="url(#softShadow)">
-            <path d="M497 122L574 82L663 112L587 154Z" fill="#FAFBFF" />
-            <path d="M497 122v153l90 38V154Z" fill="#E7EBFF" />
-            <path d="M587 154l76-42v153l-76 48Z" fill="#D8DFF9" />
-            <path d="M511 137L578 163v28l-67-26Z" fill="url(#gDarkRack)" />
-            <path d="M511 178L578 204v28l-67-26Z" fill="url(#gDarkRack)" />
-            <path d="M511 219L578 245v28l-67-26Z" fill="url(#gDarkRack)" />
-            <path d="M604 161l43-24v102l-43 29Z" fill="#F4F6FF" opacity="0.82" />
-            <path d="M524 150l36 14M524 191l36 14M524 232l36 14" stroke="#91E9FF" stroke-width="3" stroke-linecap="round" />
-            <circle cx="568" cy="167" r="3" fill="#85EBFF" />
-            <circle cx="568" cy="208" r="3" fill="#85EBFF" />
-            <circle cx="568" cy="249" r="3" fill="#85EBFF" />
-            <path d="M497 122L574 82L663 112M587 154v159" fill="none" stroke="#BDC8F3" stroke-width="1.4" />
-          </g>
-
-          <g class="float-c" filter="url(#softShadow)">
-            <path d="M204 192c9-29 51-30 63-5c19-7 42 7 43 31c20 2 35 16 35 35c0 22-18 38-42 38h-95c-28 0-49-18-49-43c0-24 19-43 45-56z" fill="url(#gBlue)" opacity="0.96" />
-            <path d="M252 268v-52M252 216l-18 18M252 216l18 18" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
-            <path d="M185 276c19 12 45 16 77 16h42c24 0 43-14 44-35" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.28" />
-          </g>
-
-          <g class="float-a" filter="url(#softShadow)">
-            <path d="M572 202c0-18 15-32 33-29l107 18c19 3 34 22 34 42v116c0 19-15 32-34 28l-106-21c-19-4-34-22-34-42V202z" fill="url(#gPanel)" stroke="#CFD5F8" stroke-width="1.3" />
-            <path d="M592 217l126 23" stroke="#6E55F4" stroke-width="7" stroke-linecap="round" />
-            <path d="M595 260l36 6M595 281l36 6M595 302l36 6M595 323l36 6" stroke="#CBD2F7" stroke-width="4" stroke-linecap="round" />
-            <path d="M666 329c-25-4-44-27-44-52c0-25 20-42 44-38c25 4 45 28 45 53c0 25-20 41-45 37z" fill="#EEF1FF" />
-            <path d="M666 242v42l37 9" fill="none" stroke="#7359F5" stroke-width="14" />
-            <path d="M666 284l-29 28" stroke="#78DFFF" stroke-width="14" />
-            <path d="M666 284l37 9" stroke="#5C83FF" stroke-width="14" />
-            <path d="M666 242v42" stroke="#8B76FF" stroke-width="14" />
-            <path d="M646 231l44 8" stroke="#CFD5F8" stroke-width="3" stroke-linecap="round" />
-          </g>
-
-          <g class="float-b" filter="url(#softShadow)">
-            <path d="M613 54c0-16 13-27 29-24l80 17c17 4 31 21 31 38v102c0 17-13 28-31 24l-80-18c-17-4-29-20-29-37V54z" fill="url(#gPanel)" stroke="#CFD5F8" stroke-width="1.3" />
-            <path d="M635 81l76 15M635 102l47 9M635 123l29 6" stroke="#CCD3F6" stroke-width="4" stroke-linecap="round" />
-            <path d="M635 165l21-22l19 29l20-15l25 28" fill="none" stroke="#6E55F4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-            <circle cx="635" cy="165" r="5" fill="#6E55F4" />
-            <circle cx="656" cy="143" r="5" fill="#75E3FF" />
-            <circle cx="675" cy="172" r="5" fill="#6E55F4" />
-            <circle cx="695" cy="157" r="5" fill="#75E3FF" />
-            <circle cx="720" cy="185" r="5" fill="#6E55F4" />
-          </g>
-
-          <g class="float-c" filter="url(#softShadow)">
-            <path d="M130 337l66-32l73 28l-66 35z" fill="#FDFDFF" />
-            <path d="M130 337v54l73 31v-54z" fill="#E6EBFF" />
-            <path d="M203 368l66-35v54l-66 35z" fill="#D7DFFA" />
-            <rect x="161" y="335" width="44" height="43" rx="6" fill="#F4F7FF" stroke="#AEBBFF" stroke-width="2" />
-            <rect x="171" y="345" width="24" height="23" rx="4" fill="url(#gBlue)" opacity="0.36" />
-            <path d="M183 348v17M174 357h18" stroke="#5E46F1" stroke-width="3" stroke-linecap="round" />
-          </g>
-
-          <g filter="url(#softShadow)">
-            <path d="M251 366l144-72l172 66l-148 82z" fill="#F9FAFF" />
-            <path d="M251 366v38l168 75v-37z" fill="#D7DDF4" />
-            <path d="M419 442l148-82v38l-148 81z" fill="#BEC9EA" />
-            <path d="M287 362l112-56l129 50l-114 61z" fill="#E9EDFF" />
-            <path d="M303 363l97-47l111 42l-99 52z" fill="#F7F8FF" />
-            <path d="M326 357l77-37l86 34l-78 40z" fill="#E1E6FF" />
-            <path d="M341 356l63-29l69 27l-64 33z" fill="#F9FAFF" />
-          </g>
-
-          <g filter="url(#glow)" transform="translate(410 312) scale(1.42) translate(-410 -312)">
-            <path d="M336 302l74-37l87 33l-75 40z" fill="#C7D2FF" opacity="0.75" />
-            <path d="M348 288l62-30l72 27l-63 34z" fill="#F7F9FF" />
-            <path d="M361 278l49-23l58 22l-50 26z" fill="url(#chipGlow)" />
-            <path d="M361 278v54l57 26v-55z" fill="#4F39E6" opacity="0.92" />
-            <path d="M418 303l50-26v54l-50 27z" fill="#211B7A" opacity="0.88" />
-            <path d="M361 278l49-23l58 22l-50 26z" fill="url(#chipGlow)" stroke="#A6F2FF" stroke-width="2" />
-            <text x="414" y="292" font-family="Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle" fill="#FFFFFF" transform="rotate(20 414 286)">AI</text>
-            <g stroke="#A6F2FF" stroke-width="4" stroke-linecap="round" opacity="0.92">
-              <path d="M354 295l-16 8" />
-              <path d="M354 311l-18 9" />
-              <path d="M354 327l-16 8" />
-              <path d="M475 293l17-9" />
-              <path d="M475 309l20-10" />
-              <path d="M475 325l17-9" />
-              <path d="M381 263l-12-5" />
-              <path d="M401 254l-11-5" />
-              <path d="M441 265l13-7" />
-              <path d="M458 272l14-7" />
-            </g>
-          </g>
-
-          <g filter="url(#lineGlow)" opacity="0.88">
-            <path d="M404 374v45l-62 32" fill="none" stroke="#6951F1" stroke-width="3" stroke-linecap="round" />
-            <path d="M450 354l68 32v43" fill="none" stroke="#6951F1" stroke-width="3" stroke-linecap="round" />
-            <path d="M366 342l-94 42" fill="none" stroke="#6951F1" stroke-width="3" stroke-linecap="round" />
-            <path d="M474 321l77-35" fill="none" stroke="#6951F1" stroke-width="3" stroke-linecap="round" />
-            <path d="M413 255v-60l-66-25" fill="none" stroke="#7FE7FF" stroke-width="2.4" stroke-linecap="round" />
-            <path d="M438 268l76-40" fill="none" stroke="#7FE7FF" stroke-width="2.4" stroke-linecap="round" />
-            <circle cx="342" cy="451" r="5" fill="#74E3FF" />
-            <circle cx="518" cy="429" r="5" fill="#74E3FF" />
-            <circle cx="272" cy="384" r="5" fill="#74E3FF" />
-            <circle cx="551" cy="286" r="5" fill="#74E3FF" />
-          </g>
-
-          <g class="float-a" filter="url(#softShadow)">
-            <path d="M270 424l45-22l50 20l-45 24z" fill="#FFFFFF" />
-            <path d="M270 424v42l50 22v-42z" fill="#E4E9FF" />
-            <path d="M320 446l45-24v42l-45 24z" fill="#D2DBFA" />
-            <path d="M296 421l21-10l23 9l-21 11z" fill="url(#gPurple)" />
-            <path d="M311 422l7 8l13-17" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-          </g>
-
-          <g class="float-b" filter="url(#softShadow)">
-            <path d="M500 432l50-24l55 22l-50 26z" fill="#FFFFFF" />
-            <path d="M500 432v42l55 24v-42z" fill="#E4E9FF" />
-            <path d="M555 456l50-26v42l-50 26z" fill="#D2DBFA" />
-            <path d="M527 428l21-10l24 9l-21 12z" fill="url(#gPurple)" />
-            <path d="M551 418v20M541 428h20" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
-          </g>
-
-          <g class="float-c" filter="url(#softShadow)">
-            <path d="M139 481l43-20l48 18l-43 23z" fill="#FFFFFF" />
-            <path d="M139 481v34l48 21v-34z" fill="#E6EBFF" />
-            <path d="M187 502l43-23v34l-43 23z" fill="#D5DEFA" />
-            <path d="M159 481l22-10l25 9l-22 11z" fill="url(#gPurple)" />
-            <path d="M171 483h24M177 474v18M189 472v18" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
-          </g>
-
-          <g class="pulse">
-            <circle cx="410" cy="296" r="122" fill="none" stroke="#7C67FF" stroke-width="1.3" opacity="0.23" />
-            <circle cx="410" cy="296" r="170" fill="none" stroke="#89E7FF" stroke-width="1.1" opacity="0.18" />
-            <circle cx="410" cy="296" r="213" fill="none" stroke="#7C67FF" stroke-width="1" opacity="0.11" />
-          </g>
-        </svg>
+        <picture><source srcset="assets/images/hero-ai-platform-servers.webp" type="image/webp" /><img class="hero-art" src="assets/images/hero-ai-platform-servers.png" alt="AI 算力平台 3D 插画：云上传、服务器集群、AI 芯片与数据看板" decoding="async" fetchpriority="high"></picture>
       </section>
 
       <section class="metrics" id="platform" aria-label="平台关键指标">
@@ -3407,7 +3194,7 @@
               <div class="matrix-copy">
                 <div class="matrix-top">
                   <span class="matrix-icon" aria-hidden="true">
-                    <img src="assets/images/product-matrix-a-icon.png" alt="心语AI 图标" />
+                    <picture><source srcset="assets/images/product-matrix-a-icon.webp" type="image/webp" /><img src="assets/images/product-matrix-a-icon.png" alt="心语AI 图标" loading="lazy" decoding="async"></picture>
                   </span>
                   <div>
                     <h3>心语AI</h3>
@@ -3431,7 +3218,7 @@
                 </div>
               </div>
               <div class="matrix-art" aria-hidden="true">
-                <img src="assets/images/product-matrix-a-visual.png" alt="心语AI 产品界面示意" />
+                <picture><source srcset="assets/images/product-matrix-a-visual.webp" type="image/webp" /><img src="assets/images/product-matrix-a-visual.png" alt="心语AI 产品界面示意" loading="lazy" decoding="async"></picture>
               </div>
             </article>
 
@@ -3439,7 +3226,7 @@
               <div class="matrix-copy">
                 <div class="matrix-top">
                   <span class="matrix-icon" aria-hidden="true">
-                    <img src="assets/images/product-matrix-b-icon.png" alt="算权宝 图标" />
+                    <picture><source srcset="assets/images/product-matrix-b-icon.webp" type="image/webp" /><img src="assets/images/product-matrix-b-icon.png" alt="算权宝 图标" loading="lazy" decoding="async"></picture>
                   </span>
                   <div>
                     <h3>算权宝</h3>
@@ -3463,7 +3250,7 @@
                 </div>
               </div>
               <div class="matrix-art" aria-hidden="true">
-                <img src="assets/images/product-matrix-b-visual.png" alt="算权宝 控制台与集群示意" />
+                <picture><source srcset="assets/images/product-matrix-b-visual.webp" type="image/webp" /><img src="assets/images/product-matrix-b-visual.png" alt="算权宝 控制台与集群示意" loading="lazy" decoding="async"></picture>
               </div>
             </article>
           </div>
@@ -3477,7 +3264,7 @@
         <div class="product-grid">
           <article class="service-card" id="service-gpu">
             <div class="service-visual" aria-hidden="true">
-              <img src="assets/images/product-icon-gpu.png" alt="GPU 算力实例图标" />
+              <picture><source srcset="assets/images/product-icon-gpu.webp" type="image/webp" /><img src="assets/images/product-icon-gpu.png" alt="GPU 算力实例图标" loading="lazy" decoding="async"></picture>
             </div>
             <h3>GPU 算力实例</h3>
             <p>高性能 NVIDIA GPU 实例，灵活配置，按需使用。</p>
@@ -3485,7 +3272,7 @@
 
           <article class="service-card" id="service-storage">
             <div class="service-visual" aria-hidden="true">
-              <img src="assets/images/product-icon-storage.png" alt="高性能存储图标" />
+              <picture><source srcset="assets/images/product-icon-storage.webp" type="image/webp" /><img src="assets/images/product-icon-storage.png" alt="高性能存储图标" loading="lazy" decoding="async"></picture>
             </div>
             <h3>高性能存储</h3>
             <p>并行文件系统，低延迟高带宽，满足大规模模型训练需求。</p>
@@ -3493,7 +3280,7 @@
 
           <article class="service-card" id="service-network">
             <div class="service-visual" aria-hidden="true">
-              <img src="assets/images/product-icon-network.png" alt="高速网络图标" />
+              <picture><source srcset="assets/images/product-icon-network.webp" type="image/webp" /><img src="assets/images/product-icon-network.png" alt="高速网络图标" loading="lazy" decoding="async"></picture>
             </div>
             <h3>高速网络</h3>
             <p>自研 RDMA 高速网络，低延迟、稳定可靠。</p>
@@ -3501,7 +3288,7 @@
 
           <article class="service-card" id="service-training">
             <div class="service-visual" aria-hidden="true">
-              <img src="assets/images/product-icon-model.png" alt="模型训练平台图标" />
+              <picture><source srcset="assets/images/product-icon-model.webp" type="image/webp" /><img src="assets/images/product-icon-model.png" alt="模型训练平台图标" loading="lazy" decoding="async"></picture>
             </div>
             <h3>模型训练平台</h3>
             <p>一站式训练平台，支持分布式训练与多种框架快速上手。</p>
@@ -3509,7 +3296,7 @@
 
           <article class="service-card" id="service-inference">
             <div class="service-visual" aria-hidden="true">
-              <img src="assets/images/product-icon-inference.png" alt="推理加速服务图标" />
+              <picture><source srcset="assets/images/product-icon-inference.webp" type="image/webp" /><img src="assets/images/product-icon-inference.png" alt="推理加速服务图标" loading="lazy" decoding="async"></picture>
             </div>
             <h3>推理加速服务</h3>
             <p>高并发低延迟推理服务，支持多模型部署与弹性伸缩。</p>
@@ -3517,7 +3304,7 @@
 
           <article class="service-card" id="service-private">
             <div class="service-visual" aria-hidden="true">
-              <img src="assets/images/product-icon-private.png" alt="私有化部署图标" />
+              <picture><source srcset="assets/images/product-icon-private.webp" type="image/webp" /><img src="assets/images/product-icon-private.png" alt="私有化部署图标" loading="lazy" decoding="async"></picture>
             </div>
             <h3>私有化部署</h3>
             <p>从硬件到软件全栈交付，满足企业合规与安全需求。</p>
@@ -3532,7 +3319,7 @@
         <div class="solution-grid">
           <article class="solution-card" id="solution-ai">
             <div class="solution-media">
-              <img src="assets/images/solution-ai.png" alt="人工智能研发解决方案示意图" />
+              <picture><source srcset="assets/images/solution-ai.webp" type="image/webp" /><img src="assets/images/solution-ai.png" alt="人工智能研发解决方案示意图" loading="lazy" decoding="async"></picture>
             </div>
             <div class="solution-body">
               <span class="solution-badge" aria-hidden="true">
@@ -3544,7 +3331,7 @@
           </article>
           <article class="solution-card" id="solution-finance">
             <div class="solution-media">
-              <img src="assets/images/solution-finance.png" alt="智慧金融解决方案示意图" />
+              <picture><source srcset="assets/images/solution-finance.webp" type="image/webp" /><img src="assets/images/solution-finance.png" alt="智慧金融解决方案示意图" loading="lazy" decoding="async"></picture>
             </div>
             <div class="solution-body">
               <span class="solution-badge" aria-hidden="true">
@@ -3556,7 +3343,7 @@
           </article>
           <article class="solution-card" id="solution-manufacture">
             <div class="solution-media">
-              <img src="assets/images/solution-manufacture.png" alt="智能制造解决方案示意图" />
+              <picture><source srcset="assets/images/solution-manufacture.webp" type="image/webp" /><img src="assets/images/solution-manufacture.png" alt="智能制造解决方案示意图" loading="lazy" decoding="async"></picture>
             </div>
             <div class="solution-body">
               <span class="solution-badge" aria-hidden="true">
@@ -3568,7 +3355,7 @@
           </article>
           <article class="solution-card" id="solution-health">
             <div class="solution-media">
-              <img src="assets/images/solution-health.png" alt="医疗健康解决方案示意图" />
+              <picture><source srcset="assets/images/solution-health.webp" type="image/webp" /><img src="assets/images/solution-health.png" alt="医疗健康解决方案示意图" loading="lazy" decoding="async"></picture>
             </div>
             <div class="solution-body">
               <span class="solution-badge" aria-hidden="true">
@@ -3580,7 +3367,7 @@
           </article>
           <article class="solution-card" id="solution-city">
             <div class="solution-media">
-              <img src="assets/images/solution-city.png" alt="智慧城市解决方案示意图" />
+              <picture><source srcset="assets/images/solution-city.webp" type="image/webp" /><img src="assets/images/solution-city.png" alt="智慧城市解决方案示意图" loading="lazy" decoding="async"></picture>
             </div>
             <div class="solution-body">
               <span class="solution-badge" aria-hidden="true">
@@ -3592,7 +3379,7 @@
           </article>
           <article class="solution-card" id="solution-content">
             <div class="solution-media">
-              <img src="assets/images/solution-content.png" alt="互联网与内容解决方案示意图" />
+              <picture><source srcset="assets/images/solution-content.webp" type="image/webp" /><img src="assets/images/solution-content.png" alt="互联网与内容解决方案示意图" loading="lazy" decoding="async"></picture>
             </div>
             <div class="solution-body">
               <span class="solution-badge" aria-hidden="true">
@@ -3611,7 +3398,7 @@
         </div>
         <div class="advantage-stage">
           <div class="advantage-core" aria-hidden="true">
-            <img src="assets/images/advantage-core-ai.png" alt="紫微智能 AI 算力核心能力示意" />
+            <picture><source srcset="assets/images/advantage-core-ai.webp" type="image/webp" /><img src="assets/images/advantage-core-ai.png" alt="紫微智能 AI 算力核心能力示意" loading="lazy" decoding="async"></picture>
           </div>
 
           <article class="advantage-card is-left card-01">
@@ -3619,7 +3406,7 @@
             <h3>强大算力</h3>
             <p>领先 GPU 集群算力强劲稳定</p>
             <span class="advantage-icon" aria-hidden="true">
-              <img src="assets/images/advantage-icon-compute.png" alt="强大算力优势图标" />
+              <picture><source srcset="assets/images/advantage-icon-compute.webp" type="image/webp" /><img src="assets/images/advantage-icon-compute.png" alt="强大算力优势图标" loading="lazy" decoding="async"></picture>
             </span>
           </article>
           <article class="advantage-card is-right card-02">
@@ -3627,7 +3414,7 @@
             <h3>弹性灵活</h3>
             <p>秒级扩容，按需付费，<br>资源利用最大化</p>
             <span class="advantage-icon" aria-hidden="true">
-              <img src="assets/images/advantage-icon-elastic.png" alt="弹性灵活优势图标" />
+              <picture><source srcset="assets/images/advantage-icon-elastic.webp" type="image/webp" /><img src="assets/images/advantage-icon-elastic.png" alt="弹性灵活优势图标" loading="lazy" decoding="async"></picture>
             </span>
           </article>
           <article class="advantage-card is-left card-03">
@@ -3635,7 +3422,7 @@
             <h3>高性能网络</h3>
             <p>RDMA 高速互联，<br>极致低延迟</p>
             <span class="advantage-icon" aria-hidden="true">
-              <img src="assets/images/advantage-icon-network.png" alt="高性能网络优势图标" />
+              <picture><source srcset="assets/images/advantage-icon-network.webp" type="image/webp" /><img src="assets/images/advantage-icon-network.png" alt="高性能网络优势图标" loading="lazy" decoding="async"></picture>
             </span>
           </article>
           <article class="advantage-card is-right card-04">
@@ -3643,7 +3430,7 @@
             <h3>安全可靠</h3>
             <p>多层安全防护，<br>数据隐私合规</p>
             <span class="advantage-icon" aria-hidden="true">
-              <img src="assets/images/advantage-icon-secure.png" alt="安全可靠优势图标" />
+              <picture><source srcset="assets/images/advantage-icon-secure.webp" type="image/webp" /><img src="assets/images/advantage-icon-secure.png" alt="安全可靠优势图标" loading="lazy" decoding="async"></picture>
             </span>
           </article>
           <article class="advantage-card is-left card-05">
@@ -3651,7 +3438,7 @@
             <h3>智能运维</h3>
             <p>自动化监控告警，<br>运维高效透明</p>
             <span class="advantage-icon" aria-hidden="true">
-              <img src="assets/images/advantage-icon-ops.png" alt="智能运维优势图标" />
+              <picture><source srcset="assets/images/advantage-icon-ops.webp" type="image/webp" /><img src="assets/images/advantage-icon-ops.png" alt="智能运维优势图标" loading="lazy" decoding="async"></picture>
             </span>
           </article>
           <article class="advantage-card is-right card-06">
@@ -3659,7 +3446,7 @@
             <h3>专业服务</h3>
             <p>7×24 小时专家支持，<br>全生命周期服务</p>
             <span class="advantage-icon" aria-hidden="true">
-              <img src="assets/images/advantage-icon-service.png" alt="专业服务优势图标" />
+              <picture><source srcset="assets/images/advantage-icon-service.webp" type="image/webp" /><img src="assets/images/advantage-icon-service.png" alt="专业服务优势图标" loading="lazy" decoding="async"></picture>
             </span>
           </article>
         </div>
@@ -3770,7 +3557,7 @@
         <div class="footer-grid">
           <div class="footer-brand">
             <a class="brand" href="#home" aria-label="紫微智能科技首页">
-              <img class="brand-mark" src="assets/images/ziwei-logo-mark.png" alt="紫微智能科技标志" />
+              <picture><source srcset="assets/images/ziwei-logo-mark.webp" type="image/webp" /><img class="brand-mark" src="assets/images/ziwei-logo-mark.png" alt="紫微智能科技标志" decoding="async"></picture>
               <span class="brand-name">
                 <span class="brand-cn">紫微智能科技</span>
                 <span class="brand-en">ZIWEI Tech</span>
