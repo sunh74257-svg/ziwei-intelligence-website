@@ -34,6 +34,10 @@
 
 ## 资讯文章
 
+- GPU 算力集群是什么？企业为什么需要建设 GPU 算力集群？（中文）：https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html
+- What Is a GPU Compute Cluster? Why Enterprises Need GPU Clusters（英文）：https://www.ziwei.ink/en/blog/posts/what-is-gpu-compute-cluster.html
+- 企业 AI 算能建设怎么做？从算力资源到平台化落地的完整思路（中文）：https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html
+- How to Build Enterprise AI Compute: From Resources to Platform Deployment（英文）：https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-build-guide.html
 - 企业如何选择 AI 算力平台？核心能力与建设方案（中文）：https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html
 - How to Choose an AI Compute Platform: Core Capabilities and Build Guide（英文）：https://www.ziwei.ink/en/blog/posts/how-to-choose-ai-compute-platform.html
 - 什么是 AI 算能基础设施？企业如何选型（中文）：https://www.ziwei.ink/blog/posts/what-is-ai-suan-neng.html

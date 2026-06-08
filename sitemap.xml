@@ -38,6 +38,42 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/" />
   </url>
   <url>
+    <loc>https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/what-is-gpu-compute-cluster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html" />
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/what-is-gpu-compute-cluster.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/what-is-gpu-compute-cluster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html" />
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-build-guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html" />
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-build-guide.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-build-guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html" />
+  </url>
+  <url>
     <loc>https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
