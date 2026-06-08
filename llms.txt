@@ -34,6 +34,14 @@
 
 ## 资讯文章
 
+- 紫微智能 AI 算能是什么？企业为什么需要系统化的 AI 算力能力（中文）：https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html
+- What Is ZIWEI Tech AI Compute? Why Enterprises Need Systematic AI Compute Capabilities（英文）：https://www.ziwei.ink/en/blog/posts/what-is-ziwei-ai-compute.html
+- 公有云算力和私有化部署怎么选？企业做 AI 算力建设前要想清楚（中文）：https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html
+- Public Cloud vs Private Deployment: What to Clarify Before Building Enterprise AI Compute（英文）：https://www.ziwei.ink/en/blog/posts/public-cloud-vs-private-deployment-guide.html
+- 并行文件系统是什么？为什么大模型训练离不开高性能存储（中文）：https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html
+- What Is a Parallel File System? Why Large Model Training Needs High-Performance Storage（英文）：https://www.ziwei.ink/en/blog/posts/parallel-file-system-guide.html
+- RDMA 高速网络是什么？为什么大模型训练需要它（中文）：https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html
+- What Is RDMA High-Speed Networking? Why Large Model Training Needs It（英文）：https://www.ziwei.ink/en/blog/posts/rdma-high-speed-network-guide.html
 - 推理加速服务是什么？企业上线 AI 应用为什么需要推理加速（中文）：https://www.ziwei.ink/blog/posts/inference-acceleration-service-guide.html
 - What Is Inference Acceleration? Why Enterprises Need It for AI Application Launch（英文）：https://www.ziwei.ink/en/blog/posts/inference-acceleration-service-guide.html
 - 分布式训练平台是什么？企业做大模型训练为什么需要它（中文）：https://www.ziwei.ink/blog/posts/distributed-training-platform-guide.html

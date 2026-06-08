@@ -38,6 +38,78 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/" />
   </url>
   <url>
+    <loc>https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/what-is-ziwei-ai-compute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/what-is-ziwei-ai-compute.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/what-is-ziwei-ai-compute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/public-cloud-vs-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/public-cloud-vs-private-deployment-guide.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/public-cloud-vs-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/parallel-file-system-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/parallel-file-system-guide.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/parallel-file-system-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/rdma-high-speed-network-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/rdma-high-speed-network-guide.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/rdma-high-speed-network-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html"/>
+  </url>
+  <url>
     <loc>https://www.ziwei.ink/blog/posts/inference-acceleration-service-guide.html</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
