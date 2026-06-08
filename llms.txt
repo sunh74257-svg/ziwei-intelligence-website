@@ -34,6 +34,12 @@
 
 ## 资讯文章
 
+- 企业私有化部署适合哪些 AI 场景？企业做 AI 系统落地前要考虑什么（中文）：https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html
+- Enterprise Private Deployment: Which AI Scenarios Fit and What to Consider（英文）：https://www.ziwei.ink/en/blog/posts/enterprise-ai-private-deployment-guide.html
+- 大模型推理部署怎么做？企业落地 AI 应用需要关注哪些问题（中文）：https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html
+- How to Deploy Large Model Inference? What Enterprises Should Consider for AI Applications（英文）：https://www.ziwei.ink/en/blog/posts/large-model-inference-deployment-guide.html
+- 大模型训练算力怎么选？企业做模型训练需要关注哪些基础能力（中文）：https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html
+- How to Choose Large Model Training Compute: Foundational Capabilities for Enterprises（英文）：https://www.ziwei.ink/en/blog/posts/large-model-training-compute-guide.html
 - GPU 算力集群是什么？企业为什么需要建设 GPU 算力集群？（中文）：https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html
 - What Is a GPU Compute Cluster? Why Enterprises Need GPU Clusters（英文）：https://www.ziwei.ink/en/blog/posts/what-is-gpu-compute-cluster.html
 - 企业 AI 算能建设怎么做？从算力资源到平台化落地的完整思路（中文）：https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html

@@ -38,6 +38,60 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/" />
   </url>
   <url>
+    <loc>https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/enterprise-ai-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/enterprise-ai-private-deployment-guide.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/enterprise-ai-private-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/large-model-inference-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/large-model-inference-deployment-guide.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/large-model-inference-deployment-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html"/>
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/large-model-training-compute-guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html" />
+  </url>
+  <url>
+    <loc>https://www.ziwei.ink/en/blog/posts/large-model-training-compute-guide.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ziwei.ink/en/blog/posts/large-model-training-compute-guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html" />
+  </url>
+  <url>
     <loc>https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
