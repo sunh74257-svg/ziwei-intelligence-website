@@ -35,7 +35,9 @@
 ## 资讯文章
 
 - 什么是 AI 算能基础设施？企业如何选型（中文）：https://www.ziwei.ink/blog/posts/what-is-ai-suan-neng.html
+- AI 算能基础设施：企业 AI 落地与 GPU 算力建设指南（中文）：https://www.ziwei.ink/blog/posts/ai-suan-neng-infrastructure-guide.html
 - What Is AI Compute Infrastructure? A Buyer's Guide（英文）：https://www.ziwei.ink/en/blog/posts/what-is-ai-compute.html
+- AI Compute Infrastructure: Enterprise AI Deployment and GPU Build Guide（英文）：https://www.ziwei.ink/en/blog/posts/ai-compute-infrastructure-guide.html
 
 ## 引用指南
 
