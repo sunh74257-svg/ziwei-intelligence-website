@@ -34,6 +34,10 @@
 
 ## 资讯文章
 
+- 推理加速服务是什么？企业上线 AI 应用为什么需要推理加速（中文）：https://www.ziwei.ink/blog/posts/inference-acceleration-service-guide.html
+- What Is Inference Acceleration? Why Enterprises Need It for AI Application Launch（英文）：https://www.ziwei.ink/en/blog/posts/inference-acceleration-service-guide.html
+- 分布式训练平台是什么？企业做大模型训练为什么需要它（中文）：https://www.ziwei.ink/blog/posts/distributed-training-platform-guide.html
+- What Is a Distributed Training Platform? Why Enterprises Need It for Large Model Training（英文）：https://www.ziwei.ink/en/blog/posts/distributed-training-platform-guide.html
 - 模型训练平台是什么？企业做 AI 训练为什么不能只靠 GPU 服务器（中文）：https://www.ziwei.ink/blog/posts/model-training-platform-guide.html
 - What Is a Model Training Platform? Why Enterprise AI Training Needs More Than GPU Servers（英文）：https://www.ziwei.ink/en/blog/posts/model-training-platform-guide.html
 - AI 私有化部署适合哪些企业？企业落地大模型前要考虑什么（中文）：https://www.ziwei.ink/blog/posts/ai-private-deployment-enterprise-guide.html
