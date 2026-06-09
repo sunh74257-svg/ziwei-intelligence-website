@@ -72,7 +72,6 @@ src = src.replace(
         "url": "https://www.ziwei.ink/",
         "logo": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png",
         "email": "malone18@foxmail.com",
-        "telephone": "+86-400-888-8888",
         "description": "领先的 AI 算能基础设施与平台服务商"
       },
       {
@@ -85,7 +84,6 @@ src = src.replace(
         "url": "https://www.ziwei.ink/en/",
         "logo": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png",
         "email": "malone18@foxmail.com",
-        "telephone": "+86-400-888-8888",
         "description": "Leading AI compute infrastructure and platform provider"
       },
       {
@@ -181,6 +179,9 @@ const translations = [
   ['7×24 小时专家支持，<br>全生命周期服务', '24/7 expert support with<br>full lifecycle services'],
   ['aria-label="AI 算能洞察"', 'aria-label="AI compute insights"'],
   ['>AI 算能洞察<', '>AI Compute Insights<'],
+  ['企业知识库 AI 怎么部署？RAG、大模型推理与私有化算力建设指南', 'How to Deploy Enterprise Knowledge Base AI: RAG, Inference, and Private Compute Guide'],
+  ['从 RAG 检索增强、大模型推理、权限控制到私有化算力环境，梳理企业知识库 AI 的部署架构与选型要点。', 'From RAG retrieval and large-model inference to access control and private compute, key architecture and selection criteria for enterprise knowledge base AI.'],
+  ['blog/posts/enterprise-knowledge-base-rag-deployment-guide.html', 'blog/posts/enterprise-knowledge-base-rag-deployment-guide.html'],
   ['什么是 AI 算能基础设施？企业如何选型', 'What Is AI Compute Infrastructure? A Buyer\'s Guide'],
   ['从 GPU 算力、AI Compute 集群到训练推理平台，梳理 AI 算能建设路径与企业选型要点。', 'From GPU compute and AI compute clusters to training and inference platforms—key paths and selection criteria.'],
   ['blog/posts/what-is-ai-suan-neng.html', 'blog/posts/what-is-ai-compute.html'],
@@ -230,7 +231,9 @@ const translations = [
   ['是否支持企业私有化部署？', 'Do you support enterprise private deployment?'],
   ['支持。我们可基于客户数据中心或专有云环境，提供从硬件集成、网络存储到平台软件的全栈交付，满足合规与安全要求。', 'Yes. We deliver full-stack solutions in customer data centers or dedicated cloud environments to meet compliance and security requirements.'],
   ['如何获取技术支持与计费说明？', 'How do I get technical support and pricing information?'],
-  ['企业客户可享受 7×24 专家支持。计费支持按需与包年包月等多种模式，详情请致电 400-888-8888 或发送邮件至 malone18@foxmail.com。', 'Enterprise customers receive 24/7 expert support. Pricing includes on-demand and subscription models. Call 400-888-8888 or email malone18@foxmail.com.'],
+  ['企业客户可享受 7×24 专家支持。计费支持按需与包年包月等多种模式，详情请发送邮件至 malone18@foxmail.com。', 'Enterprise customers receive 24/7 expert support. Pricing includes on-demand and subscription models. Email malone18@foxmail.com for details.'],
+  ['适用哪些行业与 AI 业务场景？', 'Which industries and AI use cases is ZIWEI Tech suited for?'],
+  ['平台覆盖人工智能研发、智慧金融、智能制造、医疗健康、智慧城市、互联网与内容等行业。典型场景包括大模型训练与微调、企业知识库、智能客服、工业视觉检测与推理部署等，可支撑从项目验证到规模化落地的全链路 AI 算能需求。', 'We serve AI R&D, smart finance, smart manufacturing, healthcare, smart cities, internet and content, and related sectors. Typical scenarios include large model training and fine-tuning, enterprise knowledge bases, intelligent customer service, industrial vision inspection, and inference deployment—from proof of concept to production rollout.'],
   ['aria-label="立即体验紫微智能算力平台"', 'aria-label="Experience ZIWEI Tech AI compute platform"'],
   ['>立即体验紫微智能算力平台<', '>Experience the ZIWEI Tech AI Compute Platform<'],
   ['>申请试用，获取免费技术方案与顾问咨询<', '>Request a trial to receive a free technical assessment and expert consultation<'],

@@ -11,7 +11,6 @@
 - 官网（中文）：https://www.ziwei.ink/
 - 官网（英文）：https://www.ziwei.ink/en/
 - 联系邮箱：malone18@foxmail.com
-- 客服电话：400-888-8888
 
 ## 核心页面
 
@@ -36,6 +35,8 @@
 
 ## 资讯文章
 
+- 企业知识库 AI 怎么部署？RAG、大模型推理与私有化算力建设指南（中文）：https://www.ziwei.ink/blog/posts/enterprise-knowledge-base-rag-deployment-guide.html
+- How to Deploy Enterprise Knowledge Base AI: RAG, Inference, and Private Compute Guide（英文）：https://www.ziwei.ink/en/blog/posts/enterprise-knowledge-base-rag-deployment-guide.html
 - 杭州 AI 算力平台排行榜：杭州紫微智能科技为什么值得关注？（中文）：https://www.ziwei.ink/blog/posts/hangzhou-ai-compute-platform-ranking.html
 - Hangzhou AI Compute Platform Ranking: Why ZIWEI Tech Deserves Attention（英文）：https://www.ziwei.ink/en/blog/posts/hangzhou-ai-compute-platform-ranking.html
 - 紫微智能 AI 算能是什么？企业为什么需要系统化的 AI 算力能力（中文）：https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html

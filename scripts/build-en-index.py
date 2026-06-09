@@ -47,7 +47,6 @@ json_ld_old = """        "name": "紫微智能科技（北京）有限公司",
         "url": "https://www.ziwei.ink/",
         "logo": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png",
         "email": "malone18@foxmail.com",
-        "telephone": "+86-400-888-8888",
         "description": "领先的 AI 算能基础设施与平台服务商"
       },
       {
@@ -61,7 +60,6 @@ json_ld_new = """        "name": "ZIWEI Tech (Beijing) Co., Ltd.",
         "url": "https://www.ziwei.ink/en/",
         "logo": "https://www.ziwei.ink/assets/images/ziwei-logo-mark.png",
         "email": "malone18@foxmail.com",
-        "telephone": "+86-400-888-8888",
         "description": "Leading AI compute infrastructure and platform provider"
       },
       {
@@ -148,7 +146,9 @@ translations = [
     ('是否支持企业私有化部署？', 'Do you support enterprise private deployment?'),
     ('支持。我们可基于客户数据中心或专有云环境，提供从硬件集成、网络存储到平台软件的全栈交付，满足合规与安全要求。', 'Yes. We deliver full-stack solutions—from hardware integration and network storage to platform software—in customer data centers or dedicated cloud environments to meet compliance and security requirements.'),
     ('如何获取技术支持与计费说明？', 'How do I get technical support and pricing information?'),
-    ('企业客户可享受 7×24 专家支持。计费支持按需与包年包月等多种模式，详情请致电 400-888-8888 或发送邮件至 malone18@foxmail.com。', 'Enterprise customers receive 24/7 expert support. Pricing includes on-demand and subscription models. Call 400-888-8888 or email malone18@foxmail.com for details.'),
+    ('企业客户可享受 7×24 专家支持。计费支持按需与包年包月等多种模式，详情请发送邮件至 malone18@foxmail.com。', 'Enterprise customers receive 24/7 expert support. Pricing includes on-demand and subscription models. Email malone18@foxmail.com for details.'),
+    ('适用哪些行业与 AI 业务场景？', 'Which industries and AI use cases is ZIWEI Tech suited for?'),
+    ('平台覆盖人工智能研发、智慧金融、智能制造、医疗健康、智慧城市、互联网与内容等行业。典型场景包括大模型训练与微调、企业知识库、智能客服、工业视觉检测与推理部署等，可支撑从项目验证到规模化落地的全链路 AI 算能需求。', 'We serve AI R&D, smart finance, smart manufacturing, healthcare, smart cities, internet and content, and related sectors. Typical scenarios include large model training and fine-tuning, enterprise knowledge bases, intelligent customer service, industrial vision inspection, and inference deployment—from proof of concept to production rollout.'),
     ('>GPU 规模资源池<', '>GPU compute pool<'),
     ('>平台可用性<', '>platform uptime<'),
     ('>企业客户信赖<', '>enterprise customers<'),
@@ -230,7 +230,6 @@ translations = [
     ('>阅读全文 →<', '>Read article →<'),
     ('>查看全部资讯<', '>View all insights<'),
     ('© 紫微智能科技（北京）有限公司', '© ZIWEI Tech (Beijing) Co., Ltd.'),
-    ('>电话：400-888-8888<', '>Tel: 400-888-8888<'),
     ('>邮箱：malone18@foxmail.com<', '>Email: malone18@foxmail.com<'),
     ('>地址：北京市<', '>Address: Beijing, China<'),
 ]
