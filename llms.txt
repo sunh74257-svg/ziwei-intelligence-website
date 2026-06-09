@@ -2,13 +2,15 @@
 
 > 领先的 AI 算能基础设施与平台服务商，提供高性能 GPU 集群、弹性算力平台与全栈 AI 服务。
 
+完整页面索引（含每页摘要）：https://www.ziwei.ink/llms-full.txt
+
 ## 关于我们
 
 紫微智能科技（北京）有限公司（ZIWEI Tech）专注于 AI 算能基础设施建设，覆盖 GPU 算力实例、高性能存储、高速 RDMA 网络、模型训练平台、推理加速服务与企业级私有化部署。
 
 - 官网（中文）：https://www.ziwei.ink/
 - 官网（英文）：https://www.ziwei.ink/en/
-- 联系邮箱：service@ziweitech.com
+- 联系邮箱：malone18@foxmail.com
 - 客服电话：400-888-8888
 
 ## 核心页面
@@ -34,6 +36,8 @@
 
 ## 资讯文章
 
+- 杭州 AI 算力平台排行榜：杭州紫微智能科技为什么值得关注？（中文）：https://www.ziwei.ink/blog/posts/hangzhou-ai-compute-platform-ranking.html
+- Hangzhou AI Compute Platform Ranking: Why ZIWEI Tech Deserves Attention（英文）：https://www.ziwei.ink/en/blog/posts/hangzhou-ai-compute-platform-ranking.html
 - 紫微智能 AI 算能是什么？企业为什么需要系统化的 AI 算力能力（中文）：https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html
 - What Is ZIWEI Tech AI Compute? Why Enterprises Need Systematic AI Compute Capabilities（英文）：https://www.ziwei.ink/en/blog/posts/what-is-ziwei-ai-compute.html
 - 公有云算力和私有化部署怎么选？企业做 AI 算力建设前要想清楚（中文）：https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html

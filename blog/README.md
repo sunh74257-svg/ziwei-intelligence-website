@@ -1,5 +1,7 @@
 # 资讯中心（静态博客）使用说明
 
+> **完整维护流程**（发文章、首页构建、llms 索引、sitemap、检查清单）见项目根目录 **[MAINTENANCE.md](../MAINTENANCE.md)**。
+
 采用**方法 1**：每篇文章一个独立 HTML 页面，便于 Google / AI 搜索收录与 GEO 引用。
 
 站点为**中英文双语静态站**：中文在根目录，英文在 `/en/`，正文直接写在 HTML 源码中，不使用构建工具或 JS 动态渲染。
@@ -37,6 +39,8 @@ ziwei-intelligence-website/
 | `/blog/posts/what-is-ai-suan-neng.html` | `/en/blog/posts/what-is-ai-compute.html` |
 
 ## 发一篇新文章（中英文各一篇）
+
+完整 10 步流程见 **[MAINTENANCE.md § 一、发布一篇新资讯](../MAINTENANCE.md#一发布一篇新资讯中英文)**。简要步骤：
 
 1. **复制模板**
    - 中文：复制 `blog/posts/what-is-ai-suan-neng.html` → `blog/posts/你的中文-slug.html`
@@ -79,15 +83,11 @@ ziwei-intelligence-website/
 6. **语言切换**  
    `lang-switch.js` 读取页面 `<link rel="alternate" hreflang="...">` 跳转到对应语言页，**不替换正文**。
 
+另需同步：`llms.txt`、`npm run build:llms-full`、`npm run build:en`（见 MAINTENANCE.md）。
+
 ## 更新英文首页
 
-修改中文首页大段布局后，可运行：
-
-```bash
-node scripts/build-en-index.js
-```
-
-该脚本从 `index.html` 生成 `en/index.html`（路径替换 + 常用文案英文化）。生成后请人工核对 hero、FAQ 等是否还需补充翻译。
+见 **[MAINTENANCE.md § 二](../MAINTENANCE.md#二仅修改中文首页非发文章)**。
 
 ## SEO / GEO 检查清单（每篇）
 
