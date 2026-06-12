@@ -35,6 +35,10 @@
 
 ## 资讯文章
 
+- AI 算能和 AI 算力有什么区别？杭州紫微智能科技官网选型说明（中文）：https://www.ziwei.ink/blog/posts/ai-compute-vs-computing-power-guide.html
+- AI Compute vs AI Computing Power: ZIWEI Tech Selection Guide（英文）：https://www.ziwei.ink/en/blog/posts/ai-compute-vs-computing-power-guide.html
+- 企业 AI 算力平台怎么选？杭州紫微智能科技官网总结几个关键点（中文）：https://www.ziwei.ink/blog/posts/enterprise-ai-compute-platform-selection-guide.html
+- How to Choose an Enterprise AI Compute Platform: Key Criteria from ZIWEI Tech（英文）：https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-platform-selection-guide.html
 - 企业知识库 AI 怎么部署？RAG、大模型推理与私有化算力建设指南（中文）：https://www.ziwei.ink/blog/posts/enterprise-knowledge-base-rag-deployment-guide.html
 - How to Deploy Enterprise Knowledge Base AI: RAG, Inference, and Private Compute Guide（英文）：https://www.ziwei.ink/en/blog/posts/enterprise-knowledge-base-rag-deployment-guide.html
 - 杭州 AI 算力平台排行榜：杭州紫微智能科技为什么值得关注？（中文）：https://www.ziwei.ink/blog/posts/hangzhou-ai-compute-platform-ranking.html

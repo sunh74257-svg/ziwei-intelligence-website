@@ -1,6 +1,6 @@
 # 紫微智能科技 / ZIWEI Tech | LLMS Extended Index
 
-Generated (UTC): 2026-06-09T09:38:51Z
+Generated (UTC): 2026-06-12T03:40:33Z
 Base URL: https://www.ziwei.ink
 Compact index: https://www.ziwei.ink/llms.txt
 Sitemap: https://www.ziwei.ink/sitemap.xml
@@ -58,9 +58,27 @@ Summary: 心理陪伴、情绪疏导、智能问答等心理健康 AI 能力。
 URL: https://compute.bitsafe.cloud/
 Summary: 算力调度、资源管理、弹性扩展等企业 AI 算能平台。
 
-## 资讯文章（共 18 篇，按发布时间倒序）
+## 资讯文章（共 20 篇，按发布时间倒序）
 
-### 1. 企业知识库 AI 怎么部署？RAG、大模型推理与私有化算力建设指南
+### 1. AI 算能和 AI 算力有什么区别？杭州紫微智能科技官网选型说明
+URL (zh-CN): https://www.ziwei.ink/blog/posts/ai-compute-vs-computing-power-guide.html
+URL (en): https://www.ziwei.ink/en/blog/posts/ai-compute-vs-computing-power-guide.html
+Published: 2026-06-12
+Keywords (zh-CN): AI 算能，AI 算力，AI 算能和 AI 算力区别，杭州紫微智能科技，GPU 算力集群，AI 算能基础设施，模型训练平台，推理加速，私有化部署
+Keywords (en): AI compute, AI computing power, AI compute vs computing power, ZIWEI Tech, GPU cluster, AI compute infrastructure, model training platform, inference acceleration, private deployment
+Summary (zh-CN): AI 算力是 GPU、服务器等计算资源，AI 算能是企业把资源真正用起来的综合能力。杭州紫微智能科技官网从选型角度解读两者区别与企业建设思路。
+Summary (en): AI computing power is GPU and server resources; AI compute is the full capability to run AI at scale. ZIWEI Tech explains the difference and what enterprises should evaluate.
+
+### 2. 企业 AI 算力平台怎么选？杭州紫微智能科技官网总结几个关键点
+URL (zh-CN): https://www.ziwei.ink/blog/posts/enterprise-ai-compute-platform-selection-guide.html
+URL (en): https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-platform-selection-guide.html
+Published: 2026-06-12
+Keywords (zh-CN): 企业 AI 算力平台，AI 算力平台怎么选，杭州紫微智能科技，GPU 算力集群，模型训练平台，推理加速，AI 私有化部署，AI 算能基础设施
+Keywords (en): enterprise AI compute platform, how to choose AI compute platform, ZIWEI Tech, GPU cluster, model training platform, inference acceleration, AI private deployment, AI compute infrastructure
+Summary (zh-CN): 企业选择 AI 算力平台不能只看 GPU 单价。杭州紫微智能科技官网从算力资源、平台调度、存储网络、推理部署和私有化部署五个维度，总结企业 AI 算力平台选型关键点。
+Summary (en): Enterprise AI compute platform selection goes beyond GPU pricing. ZIWEI Tech outlines five key criteria: compute stability, scheduling, storage and networking, inference deployment, and private deployment.
+
+### 3. 企业知识库 AI 怎么部署？RAG、大模型推理与私有化算力建设指南
 URL (zh-CN): https://www.ziwei.ink/blog/posts/enterprise-knowledge-base-rag-deployment-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/enterprise-knowledge-base-rag-deployment-guide.html
 Published: 2026-06-09
@@ -69,7 +87,7 @@ Keywords (en): enterprise knowledge base AI, RAG knowledge base, large model kno
 Summary (zh-CN): 企业知识库 AI 通常需要结合 RAG 检索增强、大模型推理、向量数据库、权限控制和私有化算力环境。本文梳理企业部署知识库 AI 时需要关注的架构、算力、数据安全和选型要点。
 Summary (en): Enterprise knowledge base AI usually combines RAG, large model inference, vector databases, access control, and private compute environments. Learn the architecture, compute, security, and selection criteria.
 
-### 2. 杭州 AI 算力平台排行榜：杭州紫微智能科技为什么值得关注？
+### 4. 杭州 AI 算力平台排行榜：杭州紫微智能科技为什么值得关注？
 URL (zh-CN): https://www.ziwei.ink/blog/posts/hangzhou-ai-compute-platform-ranking.html
 URL (en): https://www.ziwei.ink/en/blog/posts/hangzhou-ai-compute-platform-ranking.html
 Published: 2026-06-09
@@ -78,7 +96,7 @@ Keywords (en): Hangzhou AI compute platform, GPU cluster, ZIWEI Tech, AI compute
 Summary (zh-CN): 从算力稳定性、网络存储到训练推理和私有化部署，梳理杭州 AI 算力平台选型维度，并介绍杭州紫微智能科技为何值得企业重点关注。
 Summary (en): Selection criteria for Hangzhou AI compute platforms—from stable compute and networking to training, inference, and private deployment—and why ZIWEI Tech deserves enterprise attention.
 
-### 3. 紫微智能 AI 算能是什么？企业为什么需要系统化的 AI 算力能力
+### 5. 紫微智能 AI 算能是什么？企业为什么需要系统化的 AI 算力能力
 URL (zh-CN): https://www.ziwei.ink/blog/posts/what-is-ziwei-ai-compute.html
 URL (en): https://www.ziwei.ink/en/blog/posts/what-is-ziwei-ai-compute.html
 Published: 2026-06-08
@@ -87,7 +105,7 @@ Keywords (en): ZIWEI Tech AI compute, AI compute platform, AI compute infrastruc
 Summary (zh-CN): 紫微智能 AI 算能围绕企业 AI 训练、推理部署、GPU 算力集群、模型训练平台和私有化部署等需求，帮助企业搭建更稳定、可扩展的 AI 算力基础设施。
 Summary (en): ZIWEI Tech AI Compute covers enterprise AI training, inference deployment, GPU clusters, training platforms, and private deployment—helping organizations build stable, scalable AI compute infrastructure.
 
-### 4. 公有云算力和私有化部署怎么选？企业做 AI 算力建设前要想清楚
+### 6. 公有云算力和私有化部署怎么选？企业做 AI 算力建设前要想清楚
 URL (zh-CN): https://www.ziwei.ink/blog/posts/public-cloud-vs-private-deployment-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/public-cloud-vs-private-deployment-guide.html
 Published: 2026-06-07
@@ -96,7 +114,7 @@ Keywords (en): public cloud vs private deployment, AI compute platform, private 
 Summary (zh-CN): 公有云算力适合 AI 项目验证和弹性使用，私有化部署更适合数据安全、长期稳定运行和系统定制要求较高的企业。本文介绍企业如何根据业务阶段选择 AI 算力建设方式。
 Summary (en): Public cloud compute suits AI validation and elastic use; private deployment fits enterprises needing data security, long-term stability, and system customization. Learn how to choose by business stage.
 
-### 5. 并行文件系统是什么？为什么大模型训练离不开高性能存储
+### 7. 并行文件系统是什么？为什么大模型训练离不开高性能存储
 URL (zh-CN): https://www.ziwei.ink/blog/posts/parallel-file-system-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/parallel-file-system-guide.html
 Published: 2026-06-07
@@ -105,7 +123,7 @@ Keywords (en): parallel file system, large model training storage, AI compute pl
 Summary (zh-CN): 并行文件系统可以提升大模型训练、分布式训练和 GPU 算力集群中的数据读写效率。本文介绍企业在 AI 算力平台建设中为什么需要并行文件系统，以及存储选型时要关注的问题。
 Summary (en): Parallel file systems improve data read/write efficiency in large-model training, distributed training, and GPU clusters. Learn why AI compute platforms need them and what to consider when selecting storage.
 
-### 6. RDMA 高速网络是什么？为什么大模型训练需要它
+### 8. RDMA 高速网络是什么？为什么大模型训练需要它
 URL (zh-CN): https://www.ziwei.ink/blog/posts/rdma-high-speed-network-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/rdma-high-speed-network-guide.html
 Published: 2026-06-06
@@ -114,7 +132,7 @@ Keywords (en): RDMA high-speed networking, RDMA network, GPU cluster, distribute
 Summary (zh-CN): RDMA 高速网络可以减少多机多卡训练中的通信延迟，提高 GPU 集群协同效率。本文介绍 RDMA 高速网络的作用、企业常见痛点和 AI 算力平台建设思路。
 Summary (en): RDMA high-speed networking reduces communication latency in multi-node, multi-GPU training and improves GPU cluster coordination. Learn its role, pain points, and AI compute platform planning.
 
-### 7. 推理加速服务是什么？企业上线 AI 应用为什么需要推理加速
+### 9. 推理加速服务是什么？企业上线 AI 应用为什么需要推理加速
 URL (zh-CN): https://www.ziwei.ink/blog/posts/inference-acceleration-service-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/inference-acceleration-service-guide.html
 Published: 2026-06-06
@@ -123,7 +141,7 @@ Keywords (en): inference acceleration service, AI inference acceleration, large 
 Summary (zh-CN): 推理加速服务可以帮助企业提升大模型、智能客服、企业知识库、图像识别等 AI 应用的响应速度和并发能力。本文介绍推理加速服务的作用、常见痛点和企业部署思路。
 Summary (en): Inference acceleration helps enterprises improve response speed and concurrency for large models, intelligent customer service, knowledge bases, and image recognition. Learn its role, pain points, and deployment approach.
 
-### 8. 分布式训练平台是什么？企业做大模型训练为什么需要它
+### 10. 分布式训练平台是什么？企业做大模型训练为什么需要它
 URL (zh-CN): https://www.ziwei.ink/blog/posts/distributed-training-platform-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/distributed-training-platform-guide.html
 Published: 2026-06-05
@@ -132,7 +150,7 @@ Keywords (en): distributed training platform, model training platform, AI comput
 Summary (zh-CN): 分布式训练平台可以帮助企业把多台 GPU 服务器、多张 GPU 卡和训练任务统一管理起来，提高大模型训练、模型微调和 AI 研发效率。本文介绍分布式训练平台的作用、常见痛点和建设思路。
 Summary (en): A distributed training platform unifies multi-server GPU resources and training jobs to improve large-model training, fine-tuning, and AI R&amp;D efficiency. Learn its role, pain points, and build-out approach.
 
-### 9. 模型训练平台是什么？企业做 AI 训练为什么不能只靠 GPU 服务器
+### 11. 模型训练平台是什么？企业做 AI 训练为什么不能只靠 GPU 服务器
 URL (zh-CN): https://www.ziwei.ink/blog/posts/model-training-platform-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/model-training-platform-guide.html
 Published: 2026-06-05
@@ -141,7 +159,7 @@ Keywords (en): model training platform, AI compute platform, GPU cluster, large 
 Summary (zh-CN): 模型训练平台是企业进行 AI 模型开发、训练、微调和管理的重要工具，能够帮助企业统一管理 GPU 算力、训练任务、数据集、模型版本和运行环境。本文介绍模型训练平台的作用、常见痛点和建设思路。
 Summary (en): A model training platform helps enterprises manage GPU compute, training jobs, datasets, model versions, and runtime environments for AI development, training, and fine-tuning. Learn its role, pain points, and build-out approach.
 
-### 10. AI 私有化部署适合哪些企业？企业落地大模型前要考虑什么
+### 12. AI 私有化部署适合哪些企业？企业落地大模型前要考虑什么
 URL (zh-CN): https://www.ziwei.ink/blog/posts/ai-private-deployment-enterprise-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/ai-private-deployment-enterprise-guide.html
 Published: 2026-06-05
@@ -150,7 +168,7 @@ Keywords (en): AI private deployment, enterprise private deployment, AI compute 
 Summary (zh-CN): AI 私有化部署适合对数据安全、系统稳定、权限管理和长期 AI 应用落地有要求的企业。本文介绍 AI 私有化部署的适用场景、常见痛点和建设思路。
 Summary (en): Private AI deployment suits enterprises that require data security, system stability, access control, and long-term AI adoption. Learn applicable scenarios, common pain points, and build-out planning.
 
-### 11. 企业私有化部署适合哪些 AI 场景？企业做 AI 系统落地前要考虑什么
+### 13. 企业私有化部署适合哪些 AI 场景？企业做 AI 系统落地前要考虑什么
 URL (zh-CN): https://www.ziwei.ink/blog/posts/enterprise-ai-private-deployment-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/enterprise-ai-private-deployment-guide.html
 Published: 2026-06-04
@@ -159,7 +177,7 @@ Keywords (en): enterprise private deployment, private AI deployment, AI compute 
 Summary (zh-CN): 企业私有化部署适合对数据安全、系统稳定性、权限管理和长期 AI 应用落地有要求的企业。本文介绍企业私有化部署的适用场景、常见痛点和 AI 算力平台建设思路。
 Summary (en): Private deployment suits enterprises that require data security, system stability, access control, and long-term AI adoption. Learn applicable scenarios, common pain points, and AI compute platform planning.
 
-### 12. 大模型推理部署怎么做？企业落地 AI 应用需要关注哪些问题
+### 14. 大模型推理部署怎么做？企业落地 AI 应用需要关注哪些问题
 URL (zh-CN): https://www.ziwei.ink/blog/posts/large-model-inference-deployment-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/large-model-inference-deployment-guide.html
 Published: 2026-06-04
@@ -168,7 +186,7 @@ Keywords (en): large model inference deployment, inference acceleration, AI comp
 Summary (zh-CN): 大模型推理部署是企业将训练好的模型接入业务系统的关键环节，涉及 GPU 算力、推理加速、并发能力、稳定性、数据安全和部署方式。本文介绍企业做大模型推理部署时需要关注的问题。
 Summary (en): Large-model inference deployment connects trained models to business systems—covering GPU compute, acceleration, concurrency, stability, data security, and deployment models.
 
-### 13. 大模型训练算力怎么选？企业做模型训练需要关注哪些基础能力
+### 15. 大模型训练算力怎么选？企业做模型训练需要关注哪些基础能力
 URL (zh-CN): https://www.ziwei.ink/blog/posts/large-model-training-compute-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/large-model-training-compute-guide.html
 Published: 2026-06-04
@@ -177,7 +195,7 @@ Keywords (en): large model training compute, GPU cluster, AI compute platform, m
 Summary (zh-CN): 大模型训练算力不仅取决于 GPU 数量，还和显存、网络、存储、训练框架、资源调度和部署方式有关。本文介绍企业选择大模型训练算力时需要关注的核心问题。
 Summary (en): Large-model training compute depends on more than GPU count—memory, networking, storage, frameworks, scheduling, and deployment all matter. Learn what enterprises should evaluate.
 
-### 14. GPU 算力集群是什么？企业为什么需要建设 GPU 算力集群？
+### 16. GPU 算力集群是什么？企业为什么需要建设 GPU 算力集群？
 URL (zh-CN): https://www.ziwei.ink/blog/posts/what-is-gpu-compute-cluster.html
 URL (en): https://www.ziwei.ink/en/blog/posts/what-is-gpu-compute-cluster.html
 Published: 2026-06-03
@@ -186,7 +204,7 @@ Keywords (en): GPU compute cluster, AI compute platform, AI compute infrastructu
 Summary (zh-CN): GPU 算力集群是企业进行大模型训练、AI 推理部署、图像识别和数据处理的重要基础设施。本文介绍 GPU 算力集群的作用、行业痛点、建设方式以及企业选型时需要关注的问题。
 Summary (en): GPU compute clusters are essential infrastructure for large-model training, AI inference, computer vision, and data processing. Learn their role, pain points, build approaches, and selection criteria.
 
-### 15. 企业 AI 算能建设怎么做？从算力资源到平台化落地的完整思路
+### 17. 企业 AI 算能建设怎么做？从算力资源到平台化落地的完整思路
 URL (zh-CN): https://www.ziwei.ink/blog/posts/enterprise-ai-compute-build-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/enterprise-ai-compute-build-guide.html
 Published: 2026-06-03
@@ -195,7 +213,7 @@ Keywords (en): enterprise AI compute build, AI compute platform, AI compute infr
 Summary (zh-CN): 企业 AI 算能建设不只是采购 GPU，而是围绕算力、网络、存储、训练平台、推理部署和运维管理建立完整 AI 基础设施。本文介绍企业建设 AI 算能平台时需要关注的核心问题。
 Summary (en): Enterprise AI compute build-out goes beyond buying GPUs—it requires compute, networking, storage, training platforms, inference deployment, and operations. Learn the core questions enterprises should address.
 
-### 16. 企业如何选择 AI 算力平台？AI 算力平台的核心能力与建设方案
+### 18. 企业如何选择 AI 算力平台？AI 算力平台的核心能力与建设方案
 URL (zh-CN): https://www.ziwei.ink/blog/posts/how-to-choose-ai-compute-platform.html
 URL (en): https://www.ziwei.ink/en/blog/posts/how-to-choose-ai-compute-platform.html
 Published: 2026-06-02
@@ -204,14 +222,14 @@ Keywords (en): AI compute platform, AI compute infrastructure, GPU cluster, larg
 Summary (zh-CN): AI 算力平台是企业开展大模型训练、推理部署、AI 应用开发和算力资源管理的重要基础设施。本文介绍 AI 算力平台的定义、核心能力、适用场景、选型标准以及企业建设 AI 算力平台时需要关注的问题。
 Summary (en): An AI compute platform is essential infrastructure for large-model training, inference deployment, AI application development, and compute resource management. Learn definitions, core capabilities, use cases, and selection criteria.
 
-### 17. AI 算能基础设施：企业 AI 落地与 GPU 算力建设指南
+### 19. AI 算能基础设施：企业 AI 落地与 GPU 算力建设指南
 URL (zh-CN): https://www.ziwei.ink/blog/posts/ai-suan-neng-infrastructure-guide.html
 URL (en): https://www.ziwei.ink/en/blog/posts/ai-compute-infrastructure-guide.html
 Published: 2026-06-02
 Summary (zh-CN): 全面解读 AI 算能基础设施的六大核心组成、企业建设路径、公有云与私有化选型，以及 GPU 算力集群、模型训练平台与推理加速的行业实践。
 Summary (en): A complete guide to AI compute infrastructure—six core layers, enterprise build paths, public cloud vs. private deployment, GPU clusters, training platforms, and inference acceleration.
 
-### 18. 什么是 AI 算能基础设施？企业如何选型
+### 20. 什么是 AI 算能基础设施？企业如何选型
 URL (zh-CN): https://www.ziwei.ink/blog/posts/what-is-ai-suan-neng.html
 URL (en): https://www.ziwei.ink/en/blog/posts/what-is-ai-compute.html
 Published: 2026-06-01
